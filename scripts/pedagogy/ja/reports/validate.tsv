@@ -44,9 +44,7 @@ oxford	weaken|C1	ee	soft	REG_P_NO_POLITE	{度重|たびかさ}なる{遅|おく}
 oxford	action|A1	xs	soft	REG_P_NO_POLITE	どんな{行動|こうどう}をとるべきでしょうか。	What action should we take?
 oxford	afternoon|A1	xs	soft	REG_P_NO_POLITE	{皆|みな}さん、こんにちは。	Good afternoon, everyone.
 oxford	amazing|A1	xs	soft	REG_P_NO_POLITE	なんて{素晴|すば}らしい{一日|いちにち}でしょう。	What an amazing day!
-oxford	banana|A1	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:5本	ここにバナナが{5本|ごぽん}あります。	There are five bananas here.
 oxford	boring|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}はどうしてこんなに{退屈|たいくつ}なんでしょう。	Why is it so boring today?
-oxford	cent|A1	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:1,UNRESOLVED:NOREAD:持	{1|いち}セントも{持|も}っていません。	I don't have one cent.
 oxford	difficult|A1	xs	soft	REG_P_NO_POLITE	どうして{数学|すうがく}はこんなに{難|むずか}しいんでしょう。	Why is math so difficult?
 oxford	exciting|A1	xs	soft	REG_P_NO_POLITE	なんてわくわくする{話|はなし}でしょう。	What an exciting story!
 oxford	extra|A1	xs	soft	REG_P_NO_POLITE	チケットがもう{1枚|いちまい}あるので、どうぞ。	I have an extra ticket for you.
