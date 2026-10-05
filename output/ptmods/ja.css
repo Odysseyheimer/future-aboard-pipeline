@@ -1,0 +1,64 @@
+/* Japanese layer. Sizes in em so A / A+ scale it. Class prefix jx- (a11y.js pattern-matches -w/-ee/-mt/-et). */
+:root{--ja:#3d5a8a;--ja-soft:#e6ecf5}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--ja:#9db4dd;--ja-soft:#1f2838}}
+:root[data-theme=light]{--ja:#3d5a8a;--ja-soft:#e6ecf5}
+:root[data-theme=dark]{--ja:#9db4dd;--ja-soft:#1f2838}
+:lang(ja){font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"Meiryo","Noto Sans JP",sans-serif}
+.jx,.jx *{font-style:normal}
+.jx{line-height:2;word-break:normal;overflow-wrap:anywhere}
+.jx.nf{line-height:1.55}
+.jx ruby{ruby-position:over}
+.jx rt{font-size:.52em;color:var(--muted);font-weight:500;user-select:none;-webkit-user-select:none;letter-spacing:0}
+.jx rp{display:none}
+.jx-ro{font-family:var(--font);font-size:.8em;color:var(--muted);line-height:1.4;margin-top:1px;letter-spacing:.01em}
+.jx-line{display:inline}
+.jx-say{border:1px solid var(--border);background:var(--ja-soft);color:var(--ja);border-radius:8px;font-size:.72em;font-weight:800;
+ padding:2px 7px;margin-left:4px;vertical-align:.15em;line-height:1.5;cursor:pointer;position:relative;font-family:var(--font)}
+.jx-say{min-width:0;min-height:0}
+.jx-say::after{content:"";position:absolute;inset:-12px -8px}
+/* the stack: ไทย -> English -> 日本語, always in that order */
+.jx-stack{display:flex;flex-direction:column;gap:5px;margin:4px 0}
+.jx-r{display:flex;gap:8px;align-items:baseline;min-width:0}
+.jx-lab{flex:0 0 auto;width:22px;font-size:.62em;font-weight:800;letter-spacing:.06em;color:var(--muted);font-family:var(--font);
+ text-align:center;border-radius:5px;padding:1px 0;background:var(--surface2)}
+.jx-r-ja .jx-lab{color:var(--ja);background:var(--ja-soft)}
+.jx-tx{flex:1;min-width:0}
+.jx-r-ja .jx-tx{color:var(--text)}
+.jx-r-ja{align-items:flex-start}
+.jx-r-ja .jx-lab{margin-top:.55em}
+.jx-pre{font-size:.9em;color:var(--muted);margin-bottom:4px}
+/* browse list row: headword's Japanese under the Thai meaning */
+.pg-jl{font-size:.86em;color:var(--ja);margin-top:1px;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pg-jl .jx{line-height:1.9}
+/* talk + reader */
+.tk-ja,.rd2-ja{margin-top:6px;padding-top:6px;border-top:1px dashed var(--border)}
+.tk-ja .jx,.rd2-ja .jx{font-size:1em}
+/* header toggle */
+button.dot{border:0;padding:0;cursor:pointer;font-family:inherit;position:relative;transition:background .15s,color .15s}
+button.dot::after{content:"";position:absolute;inset:-11px}
+button.dot.ja-off{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 1.5px var(--accent)}
+.jx-toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 86px);transform:translateX(-50%);z-index:60;max-width:min(92vw,440px);
+ background:var(--text);color:var(--bg);border-radius:12px;padding:10px 14px;font-size:13.5px;line-height:1.45;box-shadow:var(--shadow)}
+.jx-sticky{padding-right:38px}
+.jx-x{position:absolute;right:6px;top:6px;border:0;background:none;color:inherit;font-size:15px;width:28px;height:28px;cursor:pointer}
+/* settings block */
+.st2-ja .st2-jrow{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:14px}
+.st2-ja .st2-jrow input{width:20px;height:20px;accent-color:var(--ja)}
+.st2-ja .st2-jrow.dis{opacity:.45}
+.st2-ja .st2-jv{font-size:12.5px;color:var(--muted);line-height:1.5;margin:4px 0 8px}
+.st2-ja .st2-jdl{width:100%;padding:11px;border-radius:11px;border:1px solid var(--border);background:var(--ja-soft);color:var(--ja);font-weight:800;font-size:14px;cursor:pointer}
+.tk-tja{font-size:.78em;font-weight:500;color:var(--muted);margin-top:2px}
+.tk-title .tk-tja span{background:none;border:0;padding:0;margin:0;font-size:inherit;font-weight:inherit;color:inherit;border-radius:0;letter-spacing:0;vertical-align:baseline}
+.tk-ja{font-size:.92em}
+.rd2-tja{font-size:1.05em;margin:0 2px 6px;color:var(--text)}
+.rd2-th-top{margin:0 0 6px}
+/* daily intro card: the stack is left-aligned and readable on the tinted meaning box */
+.dl-intro .jx-stack{text-align:left}
+.dl-mean .jx-tx{color:var(--text)}
+.dl-mean .jx-r-th .jx-tx,.dl-mean .jx-r-en .jx-tx{font-weight:700}
+.dl-ex .jx-r-th .jx-tx{color:var(--muted)}
+.dl-ex .jx-stack span{display:inline;font-size:inherit;color:inherit}
+.dl-ex .jx-stack .jx-tx{display:block}
+.dl-ex .jx-stack .jx-lab{display:block;font-size:.62em;color:var(--muted)}
+.dl-ex .jx-stack .jx-r-ja .jx-lab{color:var(--ja)}
+.dl-ex .jx-stack .jx-r-th .jx-tx{color:var(--muted)}

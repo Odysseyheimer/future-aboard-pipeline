@@ -1,0 +1,83 @@
+/* campaign.css — โหมดผจญภัย (PT.campaign). Prefix .cm- */
+.cm-wrap { padding: 6px 2px 20px; }
+.cm-center { text-align: center; padding-top: 20px; }
+.cm-load { text-align: center; color: var(--muted); padding: 48px 16px; font-size: 14px; }
+.cm-hero { font-size: 23px; font-weight: 900; margin: 6px 2px 4px; }
+.cm-hero-sub { font-size: 13px; color: var(--text); margin: 0 2px 18px; line-height: 1.6; }
+
+/* book select */
+.cm-book { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 18px; padding: 16px; margin-bottom: 12px; cursor: pointer;
+  color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.cm-book:active { transform: scale(.99); }
+.cm-book-lock { opacity: .6; }
+.cm-book-ic { flex: 0 0 auto; width: 54px; height: 54px; border-radius: 15px; background: var(--accent-soft); display: grid; place-items: center; font-size: 28px; }
+.cm-book-txt { display: flex; flex-direction: column; gap: 2px; }
+.cm-book-txt b { font-size: 16px; font-weight: 800; }
+.cm-book-txt em { font-style: normal; font-size: 12px; color: var(--muted); line-height: 1.45; }
+.cm-go { font-size: 12px; font-weight: 800; color: var(--accent); margin-top: 4px; }
+.cm-soon { font-size: 11px; font-weight: 800; color: var(--muted); margin-top: 4px; }
+
+/* map header */
+.cm-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.cm-back, .cm-back2 { background: none; border: none; color: var(--accent); font-family: var(--font); font-size: 14px; font-weight: 800; cursor: pointer; padding: 6px 2px; }
+.cm-back2 { display: block; width: 100%; color: var(--muted); font-weight: 700; font-size: 13.5px; padding: 12px; margin-top: 6px; }
+.cm-stats { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 800; }
+.cm-hp { letter-spacing: 1px; color: #e0942f; }
+.cm-xp { color: var(--accent); }
+.cm-title { font-size: 20px; font-weight: 900; margin: 2px 2px 8px; }
+.cm-xpbar { height: 8px; background: var(--surface2); border-radius: 999px; overflow: hidden; margin: 0 2px; }
+.cm-xpfill { height: 100%; background: var(--accent); border-radius: 999px; }
+.cm-xpnote { font-size: 12px; color: var(--muted); margin: 5px 2px 14px; }
+.cm-albtn { font-family: var(--font); font-size: 11px; font-weight: 800; color: var(--accent); background: var(--accent-soft); border: none; border-radius: 999px; padding: 3px 10px; cursor: pointer; margin-left: 4px; }
+
+/* chapters + path of nodes */
+.cm-chap { font-size: 13.5px; font-weight: 800; color: var(--text); margin: 18px 2px 8px; }
+.cm-chap-ic { font-size: 16px; }
+.cm-path { display: flex; flex-direction: column; gap: 8px; padding-left: 8px; border-left: 3px dashed var(--border); margin-left: 8px; }
+.cm-node { display: flex; align-items: center; gap: 11px; text-align: left; width: 100%; background: var(--surface);
+  border: 1.5px solid var(--border); border-radius: 14px; padding: 12px 14px; cursor: pointer; color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.cm-node:active { transform: scale(.98); }
+.cm-node-b { flex: 0 0 auto; min-width: 44px; font-size: 14px; letter-spacing: -1px; }
+.cm-node-t { font-size: 14px; font-weight: 700; line-height: 1.35; }
+.cm-lock { opacity: .5; cursor: default; }
+.cm-lock:active { transform: none; }
+.cm-cur { border-color: var(--accent); border-width: 2px; }
+.cm-cur .cm-node-b { color: var(--accent); font-weight: 900; font-size: 18px; }
+.cm-cur .cm-node-t { font-weight: 900; }
+.cm-done { background: var(--surface2); }
+.cm-boss .cm-node-t { color: var(--accent-ink); }
+.cm-boss.cm-cur { background: var(--accent-soft); }
+.cm-fin { text-align: center; font-size: 13px; font-weight: 800; color: var(--accent); margin: 18px 2px 4px; }
+
+/* stage intro */
+.cm-stage-hd { font-size: 19px; font-weight: 900; margin: 6px 2px 12px; line-height: 1.3; }
+.cm-narr { font-size: 15px; color: var(--text); line-height: 1.7; background: var(--surface2); border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+.cm-npc { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; box-shadow: var(--shadow); }
+.cm-npc-en { font-size: 15px; font-weight: 700; color: var(--text); }
+.cm-npc-th { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.cm-enc-list { display: flex; flex-direction: column; gap: 7px; margin-bottom: 18px; }
+.cm-enc { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; color: var(--text); }
+.cm-enc-n { flex: 0 0 auto; width: 24px; height: 24px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; font-size: 12px; font-weight: 900; }
+.cm-start { display: block; width: 100%; font-family: var(--font); font-size: 16px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 15px; padding: 15px; cursor: pointer; box-shadow: var(--shadow); }
+.cm-start:active { transform: scale(.98); }
+.cm-nohp { text-align: center; font-size: 13.5px; font-weight: 700; color: #d9534f; background: rgba(217,83,79,.1); border-radius: 12px; padding: 14px; line-height: 1.6; }
+
+/* result / fail / epilogue */
+.cm-res-star { font-size: 34px; letter-spacing: 2px; margin-bottom: 6px; }
+.cm-res-hd { font-size: 22px; font-weight: 900; }
+.cm-res-xp { font-size: 17px; font-weight: 800; color: var(--accent); margin-top: 4px; }
+.cm-res-card { font-size: 14px; color: var(--text); background: var(--surface2); border-radius: 12px; padding: 12px; margin: 14px 0; line-height: 1.6; }
+.cm-res-card b { color: var(--accent); }
+.cm-say { font-family: var(--font); font-size: 13px; background: var(--accent-soft); border: none; border-radius: 999px; padding: 3px 9px; cursor: pointer; }
+.cm-res-story { font-size: 14.5px; color: var(--text); line-height: 1.7; margin: 14px 4px 20px; font-style: italic; }
+.cm-fail-ic, .cm-epi-ic { font-size: 44px; }
+.cm-fail-sub { font-size: 14px; color: var(--muted); margin: 6px 0 18px; letter-spacing: 1px; }
+.cm-epi-note { font-size: 13px; color: var(--muted); margin: 14px 4px 20px; line-height: 1.6; }
+
+/* album */
+.cm-alb { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 12px; }
+.cm-alb-card { text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 13px; padding: 13px; cursor: pointer; color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.cm-alb-card b { display: block; font-size: 15px; font-weight: 800; color: var(--accent); }
+.cm-alb-card em { font-style: normal; font-size: 12px; color: var(--muted); }

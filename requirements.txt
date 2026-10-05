@@ -1,0 +1,5 @@
+fugashi
+unidic-lite
+jaconv
+sudachipy
+sudachidict-core

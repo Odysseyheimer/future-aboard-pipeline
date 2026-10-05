@@ -1,0 +1,32 @@
+/* bank.css — "เติมประโยค" multi-blank word-bank game */
+.bk-score { font-size: 13px; font-weight: 800; color: var(--muted); text-align: right; margin-bottom: 6px; font-variant-numeric: tabular-nums; }
+.bk-instr { font-size: 12.5px; color: var(--muted); margin-bottom: 10px; }
+.bk-card { padding: 16px 16px 14px; }
+.bk-sent { font-size: 18px; line-height: 2.1; color: var(--text); }
+.bk-th { font-size: 13px; color: var(--muted); margin-top: 12px; line-height: 1.5; }
+.bk-hint { font-size: 12.5px; color: var(--accent); background: var(--accent-soft); border-radius: 9px; padding: 7px 10px; margin-top: 10px; }
+
+.bk-blank { display: inline-block; min-width: 66px; min-height: 30px; margin: 0 2px; padding: 3px 10px; vertical-align: middle;
+  font-family: var(--font); font-size: 15px; font-weight: 700; color: var(--muted); cursor: pointer;
+  background: var(--surface2); border: 1.5px dashed var(--border); border-radius: 9px; }
+.bk-blank.bk-filled { color: var(--accent-ink); background: var(--accent-soft); border-style: solid; border-color: var(--accent); }
+.bk-blank.bk-active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); border-style: solid; }
+.bk-blank.bk-ok { color: #fff; background: var(--know); border-color: var(--know); border-style: solid; }
+.bk-blank.bk-bad { color: #fff; background: #d9534f; border-color: #d9534f; border-style: solid; text-decoration: line-through; }
+.bk-corr { display: inline-block; font-size: 13px; font-weight: 800; color: var(--know); margin: 0 3px; vertical-align: middle; }
+
+.bk-bank { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.bk-tile { font-family: var(--font); font-size: 15px; font-weight: 700; color: var(--text); cursor: pointer;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 15px; min-height: 42px; box-shadow: var(--shadow); }
+.bk-tile:active { transform: scale(.96); }
+.bk-tile.is-used { opacity: .32; background: var(--surface2); box-shadow: none; cursor: default; }
+
+.bk-actions { display: flex; gap: 10px; margin-top: 18px; }
+.bk-clear { flex: 0 0 auto; font-family: var(--font); font-size: 14px; font-weight: 800; color: var(--muted);
+  background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 12px 18px; cursor: pointer; }
+.bk-check { flex: 1; font-family: var(--font); font-size: 15px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 12px; padding: 12px; cursor: pointer; }
+.bk-check:disabled { opacity: .45; }
+.bk-result { text-align: center; font-size: 20px; font-weight: 900; color: var(--accent); margin: 16px 0 12px; }
+.bk-next { display: block; width: 100%; font-family: var(--font); font-size: 15px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 12px; padding: 13px; cursor: pointer; }

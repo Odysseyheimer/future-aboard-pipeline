@@ -1,0 +1,32 @@
+/* daily.css — "แบบทดสอบวันนี้" mixed daily session */
+.dl-wrap { padding: 4px 2px 12px; }
+.dl-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.dl-back { background: none; border: none; color: var(--accent); font-family: var(--font); font-size: 15px; font-weight: 800; cursor: pointer; padding: 4px 2px; }
+.dl-prog { flex: 1; text-align: center; font-size: 13px; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; }
+.dl-score { font-size: 12.5px; font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dl-bar { height: 7px; background: var(--surface2); border-radius: 999px; overflow: hidden; margin-bottom: 14px; }
+.dl-bar i { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width .25s; }
+
+.dl-intro { text-align: left; }
+.dl-pos { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.dl-mean { font-size: 16px; font-weight: 700; color: var(--accent-ink); background: var(--accent-soft); border-radius: 10px; padding: 9px 12px; margin-top: 10px; }
+.dl-ex { font-size: 14px; color: var(--text); line-height: 1.6; margin-top: 10px; }
+.dl-ex span { display: block; font-size: 12.5px; color: var(--muted); }
+
+.dl-end { text-align: center; padding: 26px 10px 10px; }
+.dl-end-i { font-size: 52px; }
+.dl-end-t { font-size: 22px; font-weight: 900; color: var(--text); margin-top: 8px; }
+.dl-end-s { font-size: 16px; color: var(--text); margin-top: 10px; }
+.dl-end-s b { color: var(--accent); font-size: 20px; }
+.dl-end-d { font-size: 13.5px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+.dl-end-mix { display: inline-block; font-size: 12px; font-weight: 700; color: var(--accent-ink); background: var(--accent-soft); border-radius: 999px; padding: 5px 14px; margin-top: 14px; }
+.dl-exit { display: block; width: 100%; margin-top: 10px; font-family: var(--font); font-size: 14px; font-weight: 800; color: var(--muted); background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 11px; cursor: pointer; }
+
+/* hide search/filters while in the daily test */
+.mode-daily .row2, .mode-daily #filters { display: none; }
+
+/* Today-panel primary button */
+.td-daily-btn { display: block; width: 100%; margin-top: 8px; font-family: var(--font); font-weight: 900;
+  font-size: 15px; border: none; background: var(--accent); color: var(--accent-ink);
+  border-radius: 12px; padding: 12px; cursor: pointer; box-shadow: var(--shadow); }
+.td-daily-btn:active { transform: scale(.99); }

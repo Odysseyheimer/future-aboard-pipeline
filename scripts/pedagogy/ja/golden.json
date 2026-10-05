@@ -1,0 +1,162 @@
+{
+ "norm": [
+  [
+   "He advertised his room for rent.",
+   "He advertised his room for rent."
+  ],
+  [
+   "  It’s  “fine” now \n",
+   "It's \"fine\" now"
+  ],
+  [
+   "",
+   ""
+  ],
+  [
+   "Could I have the bill, please?",
+   "Could I have the bill, please?"
+  ],
+  [
+   "Tom’s dog ran \t away.",
+   "Tom's dog ran away."
+  ],
+  [
+   "unicode scope 日本語 テスト 🐱",
+   "unicode scope 日本語 テスト 🐱"
+  ]
+ ],
+ "key": [
+  [
+   "advertise|A2",
+   "He advertised his room for rent.",
+   0,
+   "14b8bgk"
+  ],
+  [
+   "advertise|A2",
+   "He advertised his room for rent.",
+   1,
+   "j4426l"
+  ],
+  [
+   "advertise|A2",
+   "He advertised his room for rent.",
+   7,
+   "jmolc3"
+  ],
+  [
+   "x|B1",
+   "  It’s  “fine” now \n",
+   0,
+   "uza2af"
+  ],
+  [
+   "x|B1",
+   "  It’s  “fine” now \n",
+   1,
+   "zpccy0"
+  ],
+  [
+   "x|B1",
+   "  It’s  “fine” now \n",
+   7,
+   "1m94yxa"
+  ],
+  [
+   "undefined|undefined",
+   "",
+   0,
+   "k2zkur"
+  ],
+  [
+   "undefined|undefined",
+   "",
+   1,
+   "d5fnps"
+  ],
+  [
+   "undefined|undefined",
+   "",
+   7,
+   "14a6u5a"
+  ],
+  [
+   "c01",
+   "Could I have the bill, please?",
+   0,
+   "1vki24m"
+  ],
+  [
+   "c01",
+   "Could I have the bill, please?",
+   1,
+   "1wixrat"
+  ],
+  [
+   "c01",
+   "Could I have the bill, please?",
+   7,
+   "1cv4suf"
+  ],
+  [
+   "story_1",
+   "Tom’s dog ran \t away.",
+   0,
+   "1rswxo1"
+  ],
+  [
+   "story_1",
+   "Tom’s dog ran \t away.",
+   1,
+   "fn4kkg"
+  ],
+  [
+   "story_1",
+   "Tom’s dog ran \t away.",
+   7,
+   "1hm37ye"
+  ],
+  [
+   "日本|x",
+   "unicode scope 日本語 テスト 🐱",
+   0,
+   "1ekjtoz"
+  ],
+  [
+   "日本|x",
+   "unicode scope 日本語 テスト 🐱",
+   1,
+   "n0x9gm"
+  ],
+  [
+   "日本|x",
+   "unicode scope 日本語 テスト 🐱",
+   7,
+   "1q6j9ns"
+  ]
+ ],
+ "gloss": [
+  [
+   {
+    "w": "run",
+    "g": "A1",
+    "p": "verb",
+    "me": "to move fast on foot",
+    "mt": "วิ่ง"
+   },
+   "#run|verb|to move fast on foot",
+   "run|A1"
+  ],
+  [
+   {
+    "w": "design",
+    "g": "Engineering",
+    "p": "noun",
+    "me": "",
+    "mt": "การออกแบบ"
+   },
+   "#design|noun|การออกแบบ",
+   "design|Engineering"
+  ]
+ ]
+}

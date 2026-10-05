@@ -1,0 +1,52 @@
+/* reader.css — เรื่องสั้น graded reader (สนทนา tab) + shared mode toggle */
+.tk-modeseg { display: flex; gap: 8px; margin-bottom: 12px; }
+.tk-modebtn { flex: 1; font-family: var(--font); font-size: 14px; font-weight: 800; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface); color: var(--muted); border-radius: 12px; padding: 10px; }
+.tk-modebtn.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+.rd2-lvls { display: flex; gap: 7px; margin-bottom: 12px; flex-wrap: wrap; }
+.rd2-lvl { font-family: var(--font); font-size: 13px; font-weight: 800; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 7px 14px; }
+.rd2-lvl.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+.rd2-card { display: block; width: 100%; text-align: left; cursor: pointer; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 14px; padding: 13px 15px; margin-bottom: 9px;
+  color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.rd2-card:active { background: var(--surface2); }
+.rd2-card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+.rd2-badge { font-size: 11px; font-weight: 800; color: var(--accent-ink); background: var(--accent-soft); border-radius: 999px; padding: 2px 9px; }
+.rd2-genre { font-size: 11.5px; color: var(--muted); font-weight: 600; }
+.rd2-read { margin-left: auto; font-size: 11px; font-weight: 800; color: var(--know); }
+.rd2-card-t { font-size: 15.5px; font-weight: 800; line-height: 1.3; }
+.rd2-card-tt { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.rd2-card-m { font-size: 11.5px; color: var(--muted); margin-top: 5px; }
+
+.rd2-t { font-size: 20px; font-weight: 900; line-height: 1.3; margin: 4px 2px 2px; }
+.rd2-tt { font-size: 13.5px; color: var(--muted); margin: 0 2px 8px; }
+.rd2-hintline { font-size: 11.5px; color: var(--muted); background: var(--surface2); border-radius: 9px; padding: 7px 11px; margin-bottom: 12px; }
+
+.rd2-para { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 13px;
+  padding: 13px 42px 13px 15px; margin-bottom: 9px; cursor: pointer; box-shadow: var(--shadow); }
+.rd2-en { font-size: 15.5px; line-height: 1.75; color: var(--text); }
+.rd2-th { font-size: 13.5px; line-height: 1.65; color: var(--accent-ink); background: var(--accent-soft);
+  border-radius: 9px; padding: 9px 11px; margin-top: 9px; }
+.rd2-say { position: absolute; top: 10px; right: 9px; background: none; border: none; font-size: 16px; cursor: pointer; }
+
+.rd2-sec { font-size: 13.5px; font-weight: 900; color: var(--accent); margin: 18px 2px 9px; }
+.rd2-gloss { display: flex; flex-wrap: wrap; gap: 7px; }
+.rd2-gw { font-family: var(--font); text-align: left; cursor: pointer; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 11px; padding: 8px 12px; min-height: 40px; }
+.rd2-gw b { display: block; font-size: 13.5px; font-weight: 800; color: var(--text); }
+.rd2-gw span { display: block; font-size: 11.5px; color: var(--muted); }
+
+.rd2-q { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+.rd2-q-t { font-size: 14px; font-weight: 700; margin-bottom: 9px; line-height: 1.5; }
+.rd2-opt { display: block; width: 100%; text-align: left; font-family: var(--font); font-size: 13.5px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface2); color: var(--text); border-radius: 9px; padding: 9px 12px; margin-bottom: 7px; }
+.rd2-opt.ok { border-color: var(--know); background: rgba(46,139,100,.12); font-weight: 700; }
+.rd2-opt.bad { border-color: #d9534f; background: rgba(217,83,79,.12); }
+.rd2-opt.dim { opacity: .55; }
+.rd2-score { text-align: center; font-size: 17px; font-weight: 900; color: var(--accent); margin: 14px 0 10px; }
+.rd2-next { display: block; width: 100%; font-family: var(--font); font-size: 15px; font-weight: 800;
+  color: var(--accent-ink); background: var(--accent); border: none; border-radius: 12px; padding: 13px; cursor: pointer; }
+.rd2-slow { top: 40px; }

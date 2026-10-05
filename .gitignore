@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+scripts/pedagogy/ja/derived.jsonl
+scripts/pedagogy/ja/journals/
+scripts/pedagogy/ja/chunks/
+scripts/pedagogy/ja/wf/
+scripts/pedagogy/ja/ref/*
+!scripts/pedagogy/ja/ref/joyo_jinmeiyo.txt
+scripts/pedagogy/ja/reports/keys_manifest.json
+output/data/ja/
+output/app.html

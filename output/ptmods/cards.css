@@ -1,0 +1,259 @@
+/* PT.cards — flashcards styles. All classes prefixed ".c-". Light + dark via vars. */
+
+.c-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 12px 14px 24px;
+}
+
+.c-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.c-prog { font-weight: 600; color: var(--text); }
+.c-grp {
+  color: var(--accent);
+  font-weight: 600;
+}
+.c-dot { opacity: .5; }
+.c-undo {
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.c-undo:active { background: var(--surface2); }
+
+/* ---- 3D flip card ---- */
+.c-card {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+  perspective: 1400px;
+  cursor: pointer;
+  outline: none;
+}
+.c-inner {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+  transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.4, .1, .2, 1);
+}
+.c-wrap.c-flipped .c-inner { transform: rotateY(180deg); }
+
+.c-face {
+  position: absolute;
+  inset: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* front: centered word */
+.c-front {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.c-word {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.25;
+  word-break: break-word;
+}
+.c-pos {
+  font-size: 15px;
+  color: var(--muted);
+  font-style: italic;
+}
+.c-hint {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  opacity: .8;
+}
+
+/* recall-angle badge (multi-angle rotation on review-stage cards) */
+.c-angle { font-size: 11.5px; font-weight: 800; color: var(--accent); background: var(--accent-soft);
+  border-radius: 999px; padding: 4px 12px; margin-bottom: 2px; }
+
+/* listening-only front */
+.c-listen-btn { width: 84px; height: 84px; border-radius: 50%; border: none; background: var(--accent);
+  color: var(--accent-ink); font-size: 34px; cursor: pointer; box-shadow: var(--shadow); }
+.c-listen-btn:active { transform: scale(.95); }
+
+/* leech badge on the back */
+.c-b-leech { font-size: 12px; font-weight: 700; color: var(--text); background: var(--accent-soft);
+  border-radius: 9px; padding: 7px 10px; margin-bottom: 2px; }
+
+/* back: detail, rotated so it faces us when flipped */
+.c-back {
+  transform: rotateY(180deg);
+  gap: 8px;
+}
+.c-b-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.c-b-word {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+}
+.c-speak {
+  margin-left: auto;
+  background: var(--accent-soft);
+  border: none;
+  color: var(--accent);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.c-speak:active { transform: scale(.92); }
+.c-b-pos { font-size: 14px; color: var(--muted); font-style: italic; margin-bottom: 2px; }
+
+/* verb forms V1 -> V2 -> V3 on the flashcard back */
+.c-b-vf { display: flex; flex-wrap: wrap; align-items: center; gap: 7px;
+  background: var(--surface2); border-radius: 10px; padding: 8px 10px; margin: 2px 0 6px; }
+.c-vf-cell { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; }
+.c-vf-l { font-size: 10px; font-weight: 700; letter-spacing: .03em; color: var(--accent); }
+.c-vf-w { font-size: 14.5px; font-weight: 700; color: var(--text); }
+.c-vf-ar { color: var(--muted); font-size: 13px; }
+.c-vf-ir { font-size: 11px; font-weight: 700; color: var(--accent-ink); background: var(--accent-soft);
+  border-radius: 999px; padding: 2px 8px; margin-left: 2px; }
+.c-b-row {
+  font-size: 15px;
+  color: var(--text);
+  display: flex;
+  gap: 8px;
+  line-height: 1.45;
+}
+.c-b-lab {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--surface2);
+  border-radius: 6px;
+  padding: 1px 6px;
+  height: fit-content;
+  margin-top: 2px;
+}
+.c-b-ex {
+  font-size: 14px;
+  color: var(--text);
+  border-left: 3px solid var(--accent-soft);
+  padding-left: 10px;
+  line-height: 1.5;
+}
+.c-b-ex-th { color: var(--muted); }
+.c-b-x {
+  font-size: 13px;
+  color: var(--muted);
+  background: var(--surface2);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+.c-b-note {
+  font-size: 13px;
+  color: var(--muted);
+  background: var(--accent-soft);
+  border-radius: 8px;
+  padding: 8px 10px;
+  line-height: 1.5;
+}
+
+/* ---- footer: reveal button / rating row ---- */
+.c-foot { min-height: 56px; }
+.c-reveal {
+  width: 100%;
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: none;
+  border-radius: 14px;
+  padding: 16px;
+  font: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.c-reveal:active { filter: brightness(.94); }
+.c-wrap.c-flipped .c-reveal { display: none; }
+
+.c-rates { display: none; }
+.c-wrap.c-flipped .c-rates {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.c-rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 4px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.c-rate:active { transform: translateY(1px); }
+.c-rate-th { font-size: 15px; font-weight: 700; }
+.c-rate-iv { font-size: 12px; color: var(--muted); }
+
+.c-again { border-color: var(--review); }
+.c-again .c-rate-th { color: var(--review); }
+.c-easy { border-color: var(--know); }
+.c-easy .c-rate-th { color: var(--know); }
+.c-good { border-color: var(--accent); }
+.c-good .c-rate-th { color: var(--accent); }
+
+/* ---- empty state ---- */
+.c-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+  padding: 64px 24px;
+  color: var(--muted);
+}
+.c-empty-emoji { font-size: 52px; }
+.c-empty-msg { font-size: 18px; font-weight: 600; color: var(--text); }
+.c-empty-sub { font-size: 13.5px; color: var(--muted); margin-top: -6px; }
+.c-unl-cta { font-family: var(--font); font-size: 14.5px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 999px; padding: 11px 20px; cursor: pointer; margin-top: 4px; }
+.c-unl-cta:active { transform: scale(.97); }
+
+/* unlimited-mode toggle, top bar */
+.c-unl { background: transparent; border: 1px solid var(--border); color: var(--muted); border-radius: 999px;
+  padding: 4px 10px; font: inherit; font-size: 12.5px; font-weight: 700; cursor: pointer; }
+.c-unl.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.c-unl:active { transform: scale(.95); }

@@ -1,0 +1,86 @@
+/* PT.a11y — accessibility CSS: focus rings, touch targets, reduced motion.
+   Prefixed with ".a-" per module convention. Uses only the frozen
+   CSS custom properties (--accent, --surface, --border, etc). */
+
+/* Visible focus ring on anything the a11y pass makes focusable, plus
+   general keyboard-focus visibility across the app (safe, additive). */
+.a-focus-ring,
+#tabbar [role="tab"]:focus-visible,
+#filters [role="button"]:focus-visible,
+#sheet :focus-visible,
+.c-card:focus-visible,
+[class*="c-card"]:focus-visible,
+button:focus-visible,
+a:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Fallback for browsers without :focus-visible support */
+#tabbar [role="tab"]:focus,
+#filters [role="button"]:focus,
+button:focus,
+[role="button"]:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Minimum 44x44px touch targets for interactive controls. */
+#tabbar [role="tab"],
+#filters [role="button"],
+.a-touch,
+button,
+[role="button"] {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Icon-only buttons (theme toggle, speaker, close) — ensure comfortable
+   tap area even if visual glyph is small. */
+#theme,
+[data-speak],
+.c-speak,
+.speak,
+button[class*="speak"],
+[data-close],
+.close,
+button[class*="close"] {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Respect prefers-reduced-motion: host toggles .a-reduced-motion on the
+   root element; also honor the media query directly as a fallback. */
+.a-reduced-motion,
+.a-reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dialog (bottom sheet) should sit above content and read clearly against
+   the dimmed background in both themes. */
+#sheet[role="dialog"] {
+  background: var(--surface);
+  color: var(--text);
+}
+
+#sheetbg[aria-hidden="true"] {
+  pointer-events: auto;
+}

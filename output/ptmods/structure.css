@@ -1,0 +1,176 @@
+/* structure.css — โครงสร้างประโยค (sentence-structure resource) */
+.st2-wrap { padding: 6px 2px 14px; }
+.st2-hero { font-size: 22px; font-weight: 900; margin: 6px 2px 4px; }
+.st2-intro { font-size: 13px; color: var(--text); margin: 0 2px 14px; line-height: 1.65; }
+
+.st2-cgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.st2-ccard { text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 14px; cursor: pointer; color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.st2-ccard:active { background: var(--surface2); }
+.st2-cn { font-size: 14.5px; font-weight: 800; line-height: 1.3; }
+.st2-cc { font-size: 11.5px; color: var(--muted); margin-top: 5px; }
+
+.st2-bar { display: flex; align-items: center; gap: 10px; margin: 2px 2px 10px; }
+.st2-back { background: none; border: none; color: var(--accent); font-family: var(--font); font-size: 15px; font-weight: 800; cursor: pointer; padding: 4px 2px; }
+.st2-title { font-size: 16px; font-weight: 900; }
+
+.st2-pcard { display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 13px 14px; margin-bottom: 9px; cursor: pointer; color: var(--text); font-family: var(--font); box-shadow: var(--shadow); }
+.st2-pcard:active { background: var(--surface2); }
+.st2-pf { font-size: 15px; font-weight: 700; line-height: 1.7; }
+.st2-pn { font-size: 12.5px; color: var(--text); margin-top: 5px; }
+
+/* frame: slot chips */
+.st2-slot { display: inline-block; background: var(--accent-soft); color: var(--text); border: 1px solid var(--accent);
+  border-radius: 8px; padding: 1px 8px; font-size: .92em; font-weight: 800; margin: 2px 1px; }
+
+.st2-dname { font-size: 18px; font-weight: 900; margin: 0 2px 10px; line-height: 1.3; }
+.st2-dname span { font-size: 13px; font-weight: 600; color: var(--muted); }
+.st2-frame { font-size: 19px; font-weight: 700; line-height: 2; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 15px 16px; box-shadow: var(--shadow); }
+
+.st2-slots { margin-top: 12px; }
+.st2-srow { display: flex; gap: 10px; align-items: baseline; padding: 8px 2px; border-top: 1px solid var(--border); }
+.st2-srow:first-child { border-top: none; }
+.st2-st { flex: 0 0 auto; min-width: 78px; font-size: 14px; font-weight: 800; color: var(--accent); }
+.st2-sr { flex: 1; font-size: 13px; color: var(--text); line-height: 1.55; }
+
+.st2-mean { font-size: 14px; color: var(--text); line-height: 1.65; background: var(--accent-soft);
+  border-radius: 12px; padding: 12px 14px; margin-top: 12px; }
+
+/* "ใช้ตอนไหน" real-life usage box */
+.st2-use { border: 1.5px solid var(--accent); border-radius: 12px; padding: 12px 14px; margin-top: 12px; background: var(--surface); box-shadow: var(--shadow); }
+.st2-use-h { font-size: 12.5px; font-weight: 900; color: var(--accent); margin-bottom: 6px; }
+.st2-use-b { font-size: 13.5px; color: var(--text); line-height: 1.65; }
+
+.st2-sec { font-size: 13px; font-weight: 900; color: var(--accent); margin: 18px 2px 9px; }
+.st2-ex { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 11px 13px; margin-bottom: 8px; box-shadow: var(--shadow); }
+.st2-ex-en { font-size: 15px; font-weight: 700; line-height: 1.5; }
+.st2-ex-th { font-size: 13px; color: var(--text); margin-top: 4px; line-height: 1.5; }
+.st2-spk { background: none; border: none; cursor: pointer; font-size: 14px; padding: 0 2px; }
+
+.st2-tr { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+  border-radius: 0 12px 12px 0; padding: 10px 13px; margin-bottom: 8px; }
+.st2-tr-l { font-size: 12.5px; font-weight: 800; color: var(--accent); }
+.st2-tr-en { font-size: 14px; color: var(--text); margin-top: 5px; line-height: 1.5; }
+.st2-tr-th { font-size: 12.5px; color: var(--text); margin-top: 3px; line-height: 1.5; }
+
+.st2-tip { font-size: 12.5px; color: var(--text); background: var(--surface2); border-radius: 10px; padding: 10px 12px; margin-top: 12px; line-height: 1.55; }
+
+.st2-retry { display: block; width: 100%; font-family: var(--font); font-size: 14px; font-weight: 700;
+  color: var(--accent); background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px; margin-top: 20px; cursor: pointer; }
+.st2-retry:active { background: var(--surface2); }
+
+/* Thai-learner error contrast */
+.st2-err { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 13px; box-shadow: var(--shadow); }
+.st2-err-x { font-size: 14px; line-height: 1.5; color: var(--muted); text-decoration: line-through; text-decoration-color: #d9534f; }
+.st2-err-o { font-size: 14.5px; line-height: 1.5; font-weight: 700; color: var(--text); margin-top: 6px; }
+.st2-x { color: #d9534f; font-weight: 900; text-decoration: none; display: inline-block; }
+.st2-o { color: var(--know); font-weight: 900; }
+.st2-err-w { font-size: 13px; color: var(--text); margin-top: 7px; line-height: 1.6; border-top: 1px solid var(--border); padding-top: 7px; }
+
+/* collapsible conjugation table (forms) */
+.st2-forms-tog { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+  text-align: left; font-family: var(--font); font-size: 13.5px; font-weight: 800; color: var(--accent);
+  background: var(--surface); border: 1px solid var(--accent); border-radius: 12px; padding: 12px 14px;
+  margin-top: 12px; cursor: pointer; box-shadow: var(--shadow); }
+.st2-forms-tog:active { transform: scale(.99); }
+.st2-ft-ar { flex: 0 0 auto; font-size: 12px; }
+.st2-forms { background: var(--surface); border: 1px solid var(--border); border-top: none;
+  border-radius: 0 0 12px 12px; margin: -4px 2px 0; padding: 12px 14px 14px; box-shadow: var(--shadow); }
+.st2-fnote { font-size: 13px; color: var(--text); background: var(--accent-soft);
+  border-radius: 10px; padding: 9px 11px; line-height: 1.6; }
+.st2-fsec { font-size: 12px; font-weight: 900; color: var(--accent); margin: 13px 0 7px; }
+.st2-frow { display: flex; gap: 10px; align-items: baseline; padding: 6px 2px; border-top: 1px solid var(--border); }
+.st2-frow:first-of-type { border-top: none; }
+.st2-fl { flex: 0 0 auto; min-width: 52px; font-size: 13px; font-weight: 800; color: var(--accent); }
+.st2-fx { flex: 1; font-size: 14px; color: var(--text); line-height: 1.5; }
+.st2-fnoun { font-size: 12.5px; color: var(--text); background: var(--surface2); border-radius: 9px; padding: 9px 11px; margin-top: 11px; line-height: 1.6; }
+.st2-flegend { font-size: 12px; color: var(--text); margin-bottom: 11px; line-height: 1.6; }
+.st2-lgrow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.st2-lg { font-size: 11px; font-weight: 800; border-radius: 6px; padding: 2px 8px; }
+
+/* colour-coded change highlights: 🟠 main verb · 🔵 to be · 🟣 aux/modal · 🟢 future.
+   Underline is a second (non-colour) channel for colourblind/grayscale readers. */
+.st2-hl { border-radius: 5px; padding: 0 4px; font-weight: 800; color: #fff;
+  text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 2px; }
+.st2-hl-v { background: #e8730a; }
+.st2-hl-b { background: #0e7490; }
+.st2-hl-a { background: #7c3aed; }
+.st2-hl-f { background: #15803d; }
+@media (prefers-color-scheme: dark) {
+  .st2-hl { color: #1a1206; }
+  .st2-hl-v { background: #f59e3c; }
+  .st2-hl-b { background: #22d3ee; }
+  .st2-hl-a { background: #c084fc; }
+  .st2-hl-f { background: #4ade80; }
+}
+:root[data-theme="dark"] .st2-hl { color: #1a1206; }
+:root[data-theme="dark"] .st2-hl-v { background: #f59e3c; }
+:root[data-theme="dark"] .st2-hl-b { background: #22d3ee; }
+:root[data-theme="dark"] .st2-hl-a { background: #c084fc; }
+:root[data-theme="dark"] .st2-hl-f { background: #4ade80; }
+:root[data-theme="light"] .st2-hl { color: #fff; }
+:root[data-theme="light"] .st2-hl-v { background: #e8730a; }
+:root[data-theme="light"] .st2-hl-b { background: #0e7490; }
+:root[data-theme="light"] .st2-hl-a { background: #7c3aed; }
+:root[data-theme="light"] .st2-hl-f { background: #15803d; }
+
+/* practice entry button */
+.st2-practice-btn { display: block; width: 100%; font-family: var(--font); font-size: 15px; font-weight: 800;
+  color: var(--accent-ink); background: var(--accent); border: none; border-radius: 14px; padding: 14px;
+  margin: 0 0 16px; cursor: pointer; box-shadow: var(--shadow); }
+.st2-practice-btn:active { transform: scale(.99); }
+
+/* practice quiz */
+.st2-pr { padding: 6px 2px 20px; }
+.st2-pr-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.st2-pr-meta { font-size: 12.5px; font-weight: 800; color: var(--muted); }
+.st2-pr-bar { height: 6px; background: var(--surface2); border-radius: 999px; overflow: hidden; margin-bottom: 16px; }
+.st2-pr-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width .3s ease; }
+.st2-pr-q { font-size: 16px; font-weight: 800; margin: 0 2px 12px; line-height: 1.4; }
+.st2-pr-q b { color: var(--accent); }
+.st2-pr-ex { font-size: 17px; font-weight: 700; line-height: 1.5; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 14px 15px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.st2-pr-ex span { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-top: 5px; }
+
+.st2-opt { display: block; width: 100%; text-align: left; font-family: var(--font); font-size: 15.5px; line-height: 1.5;
+  color: var(--text); background: var(--surface); border: 1.5px solid var(--border); border-radius: 13px;
+  padding: 13px 15px; margin-bottom: 10px; cursor: pointer; box-shadow: var(--shadow); }
+.st2-opt:active { transform: scale(.99); }
+.st2-opt-cat { font-size: 14px; font-weight: 700; }
+.st2-opt-ok { border-color: var(--know); background: color-mix(in srgb, var(--know) 14%, transparent); font-weight: 800; }
+.st2-opt-bad { border-color: #d9534f; background: rgba(217,83,79,.12); }
+.st2-opt-dim { opacity: .5; }
+
+.st2-pr-fb { margin-top: 6px; }
+.st2-fb-in { border-radius: 14px; padding: 14px; border: 1px solid var(--border); background: var(--surface2); }
+.st2-fb-in.good { border-left: 4px solid var(--know); }
+.st2-fb-in.bad { border-left: 4px solid #d9534f; }
+.st2-fb-r { font-size: 14.5px; font-weight: 800; margin-bottom: 6px; }
+.st2-fb-x { font-size: 13px; color: var(--text); line-height: 1.6; }
+.st2-fb-view { display: inline-block; font-family: var(--font); font-size: 13px; font-weight: 700; color: var(--accent);
+  background: none; border: none; padding: 10px 0 0; cursor: pointer; }
+.st2-fb-next { display: block; width: 100%; font-family: var(--font); font-size: 15px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 12px; padding: 13px; margin-top: 10px; cursor: pointer; }
+
+.st2-res { text-align: center; background: var(--surface); border: 1.5px solid var(--accent); border-radius: 18px;
+  padding: 22px 16px; margin-bottom: 8px; box-shadow: var(--shadow); }
+.st2-res-i { font-size: 44px; }
+.st2-res-s { font-size: 30px; font-weight: 900; color: var(--accent); margin-top: 2px; }
+.st2-res-d { font-size: 14px; color: var(--text); margin-top: 4px; }
+.st2-miss { display: block; width: 100%; text-align: left; font-family: var(--font); font-size: 14px; font-weight: 700;
+  color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 11px 13px; margin-bottom: 8px; cursor: pointer; box-shadow: var(--shadow); }
+.st2-miss span { display: block; font-size: 11.5px; font-weight: 500; color: var(--muted); margin-top: 2px; }
+.st2-res-back { display: block; width: 100%; font-family: var(--font); font-size: 14px; font-weight: 700; color: var(--muted);
+  background: none; border: none; padding: 14px; margin-top: 6px; cursor: pointer; }
+
+/* entry card in the Library */
+.lib-feat { display: flex; align-items: center; gap: 13px; width: 100%; text-align: left; margin: 0 0 12px;
+  background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 16px; padding: 14px; cursor: pointer; font-family: var(--font); color: var(--accent-ink); box-shadow: var(--shadow); }
+.lib-feat:active { transform: scale(.99); }
+.lib-feat .lf-i { flex: 0 0 auto; font-size: 26px; }
+.lib-feat b { font-size: 15px; font-weight: 900; }
+.lib-feat em { display: block; font-style: normal; font-size: 12px; opacity: .85; margin-top: 2px; }

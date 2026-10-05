@@ -1,0 +1,15 @@
+awl                  1140/1140   100.00%  salt=0  LISTED  awl.ad64dfa2.json
+colloc               4936/4936   100.00%  salt=0  LISTED  colloc.faab6b94.json
+  SOFT speaker register mix in 1 conversations: ['salonbar-65']
+conversations        5698/5698   100.00%  salt=0  LISTED  conversations.725b720c.json
+idiom                 256/256    100.00%  salt=0  LISTED  idiom.2a8967f4.json
+knowledge            3120/3120   100.00%  salt=0  LISTED  knowledge.de967741.json
+oxford               9958/9958   100.00%  salt=0  LISTED  oxford.763cbe99.json
+oxford.x.A1           455/8100     5.62%  salt=0  LISTED  oxford.x.A1.5a977334.json
+pv                   1804/1804   100.00%  salt=0  LISTED  pv.b838e874.json
+pv.x                   13/3608     0.36%  salt=0  LISTED  pv.x.71d23881.json
+sentences            1744/1744   100.00%  salt=0  LISTED  sentences.0c11527c.json
+stories               480/480    100.00%  salt=0  LISTED  stories.23faf665.json
+syn                  1324/1324   100.00%  salt=0  LISTED  syn.e12f5025.json
+topic                 748/748    100.00%  salt=0  LISTED  topic.e29a1288.json
+stale TM units (English no longer in deck): {'sentences': 0, 'idiom': 0, 'pv': 0, 'syn': 0, 'stories': 0, 'colloc': 0, 'topic': 0, 'knowledge': 0, 'oxford': 0, 'conversations': 0, 'awl': 0}

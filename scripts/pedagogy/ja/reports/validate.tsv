@@ -1,0 +1,55 @@
+awl	deduce|S3	gloss	soft	NON_JOYO:繹	{推論|すいろん}する、{導|みちび}き{出|だ}す、{演繹|えんえき}する	#deduce|v.|to reach an answer by using facts and logic
+conversations	doctor-1	turn	soft	NON_JOYO:咳	{咳|せき}がひどくて、{鼻水|はなみず}も{出|で}ます。	I have a bad cough and a runny nose.
+conversations	doctor-1	kp	soft	NON_JOYO:咳	{咳|せき}がひどいです。	I have a bad cough.
+conversations	shopping-62	turn	soft	LEN_RATIO:1.26	かしこまりました。{紙袋|かみぶくろ}とビニール{袋|ぶくろ}、どちらになさいますか。	Sure. Paper or plastic?
+conversations	shopping-65	turn	soft	LEN_RATIO:1.23	はい、かしこまりました。コードを{教|おし}えていただけますか。	Sure. What's the code?
+conversations	healthdo-66	kp	soft	LEN_RATIO:0.12	{市販|しはん}{薬|やく}	over-the-counter medicine
+conversations	healthdo-67	turn	soft	NON_JOYO:咳	すみません、この{咳止|せきど}めをもらったんですが、どうやって{飲|の}めばいいですか。	Excuse me, I got this cough medicine. How should I take it?
+conversations	healthdo-67	turn	soft	NON_JOYO:咳	{5日|いつか}くらいです。{咳|せき}が{止|と}まらなかったら、{医者|いしゃ}に{診|み}てもらってください。	For about five days. If the cough doesn't stop, see a doctor.
+conversations	healthdo-68	turn	soft	NON_JOYO:疹	ペニシリンアレルギーです。{前回|ぜんかい}は{全身|ぜんしん}に{発疹|ほっしん}が{出|で}ました。	I'm allergic to penicillin. Last time I got a rash all over.
+conversations	publictr-61	kp	soft	NON_JOYO:〇	このバスは{〇〇|まるまる}に{行|い}きますか。	Does this bus go to...?
+knowledge	photosynthesis|Science & Technical	ee	soft	REG_P_NO_POLITE	{光合成|こうごうせい}がなければ、{動物|どうぶつ}のための{酸素|さんそ}は{存在|そんざい}しないでしょう。	Without photosynthesis, there would be no oxygen for animals.
+knowledge	communication|Technology & Innovation	ee	soft	REG_P_NO_POLITE	{5|ふぁいぶ}Gによってモバイル{通信|つうしん}が{向上|こうじょう}するでしょう。	5G will improve mobile communication.
+oxford	hi|A1	ee	soft	REG_P_NO_POLITE	こんにちは、はじめまして。	Hi, nice to meet you.
+oxford	hi|A1	xs	soft	REG_P_NO_POLITE	こんにちは、{当店|とうてん}へようこそ。	Hi, welcome to our shop.
+oxford	welcome|A1	ee	soft	REG_P_NO_POLITE	{私|わたし}たちのオフィスへようこそ！	Welcome to our office!
+oxford	perhaps|A2	ee	soft	REG_P_NO_POLITE	たぶん{明日|あした}にはプロジェクトを{終|お}えられるでしょう。	Perhaps we will finish the project tomorrow.
+oxford	succeed|A2	ee	soft	REG_P_NO_POLITE	{彼女|かのじょ}は{一生|いっしょう}{懸命|けんめい}{働|はたら}いたので、きっと{成功|せいこう}するでしょう。	She worked hard, so she will succeed.
+oxford	cheek|B2	gloss	soft	NON_JOYO:頬	{頬|ほお}、ほっぺた	#cheek|n.|the soft part of your face below each eye
+oxford	cheek|B2	ee	soft	NON_JOYO:頬	{空港|くうこう}へ{出発|しゅっぱつ}する{前|まえ}に、{祖母|そぼ}が{私|わたし}の{頬|ほお}にキスをしてくれました。	My grandmother kissed me on the cheek before I left for the airport.
+oxford	tear (water from the eye)|B2	ee	soft	NON_JOYO:頬	{感動|かんどう}{的|てき}なお{別|わか}れのスピーチを{聞|き}きながら、{彼女|かのじょ}の{頬|ほお}を{涙|なみだ}が{流|なが}れました。	Tears ran down her face as she watched the emotional farewell speech.
+oxford	effectiveness|C1	ee	soft	REG_P_NO_POLITE	{新|あたら}しい{研修|けんしゅう}プログラムの{効果|こうか}は、{来|らい}{四半|しはん}{期|き}の{売上|うりあげ}の{数字|すうじ}を{検討|けんとう}するまではっきりしないでしょう。	The effectiveness of the new training programme won't be clear until we review n
+oxford	backing|C1	ee	soft	REG_P_NO_POLITE	{投資|とうし}{家|か}からの{強力|きょうりょく}な{資金|しきん}{援助|えんじょ}がなければ、そのスタートアップは{厳|きび}しい{最初|さいしょ}の{2年間|にねんかん}を{乗|の}り{切|き}れなかったでしょう。	Without strong financial backing from investors, the startup would never have su
+oxford	dictate|C1	ee	soft	REG_P_NO_POLITE	{当社|とうしゃ}がこの{製品|せいひん}ラインを{来|らい}{四半|しはん}{期|き}も{残|のこ}すか{廃止|はいし}するかは、{最終|さいしゅう}{的|てき}には{市場|しじょう}の{需要|じゅよう}によって{決|き}まるでしょう。	Market demand will ultimately dictate whether our company keeps this product lin
+oxford	cooperate|C1	ee	soft	REG_P_NO_POLITE	{両|りょう}{部署|ぶしょ}が{競|きそ}い{合|あ}うのではなく{協力|きょうりょく}すれば、{厳|きび}しい{締|し}め{切|き}りよりも{早|はや}く、このプロジェクトを{楽|らく}に{終|お}えられるでしょう。	If both departments cooperate instead of competing, we could easily finish this 
+oxford	enforcement|C1	ee	soft	REG_P_NO_POLITE	{交通|こうつう}{法規|ほうき}の{取|と}り{締|し}まりを{強化|きょうか}すれば、{市|し}{内|ない}の{混雑|こんざつ}した{道路|どうろ}での{事故|じこ}の{件数|けんすう}はおそらく{減|へ}るでしょう。	Stricter enforcement of traffic laws would probably reduce the number of acciden
+oxford	presumably|C1	ee	soft	REG_P_NO_POLITE	{上司|じょうし}がメールに{返信|へんしん}していないので、おそらく{今週|こんしゅう}はまだ{地域|ちいき}{会議|かいぎ}の{出張|しゅっちょう}{中|ちゅう}なのでしょう。	My manager hasn't replied to the email, so presumably she is still travelling fo
+oxford	intervention|C1	ee	soft	REG_P_NO_POLITE	マネージャーが{早|はや}めに{介入|かいにゅう}していなければ、{2つ|ふたつ}の{部署|ぶしょ}の{対立|たいりつ}はもっと{深刻|しんこく}になっていたでしょう。	Without early intervention from the manager, the dispute between the two departm
+oxford	revenge|C1	gloss	soft	NON_JOYO:讐	{復讐|ふくしゅう}、{仕返|しかえ}し	#revenge|n.|harming someone who hurt you first
+oxford	revenge|C1	ee	soft	NON_JOYO:讐	{彼|かれ}は{元|もと}{共同|きょうどう}{経営|けいえい}{者|しゃ}に{復讐|ふくしゅう}しようとはせず、{代|か}わりにもっと{成功|せいこう}した{会社|かいしゃ}を{築|きず}き{上|あ}げました。	Rather than seeking revenge on his former partner, he simply built a more succes
+oxford	robust|C1	gloss	soft	NON_JOYO:牢	{頑丈|がんじょう}な、{堅牢|けんろう}な	#robust|adj.|strong and not easily broken or damaged
+oxford	robust|C1	ee	soft	NON_JOYO:牢	{情報|じょうほう}{漏|ろう}えいの{後|あと}、{会社|かいしゃ}は{堅牢|けんろう}なセキュリティシステムを{構築|こうちく}したので、{顧客|こきゃく}データは{現在|げんざい}、{既知|きち}の{攻撃|こうげき}のほとんどから{守|まも}られています。	The company built a robust security system after the breach, so customer data is
+oxford	rape|C1	gloss	soft	NON_JOYO:姦	{強姦|ごうかん}、{性的|せいてき}{暴行|ぼうこう}	#rape|n., v.|to force someone into sex against their will
+oxford	vulnerability|C1	gloss	soft	NON_JOYO:脆	{脆弱|ぜいじゃく}{性|せい}、{弱点|じゃくてん}	#vulnerability|n.|a weak point that can be harmed or attacked
+oxford	vulnerability|C1	ee	soft	NON_JOYO:脆	{監査|かんさ}によって{当社|とうしゃ}の{決済|けっさい}システムに{深刻|しんこく}な{脆弱|ぜいじゃく}{性|せい}があることが{明|あき}らかになり、ITチームは{直|ただ}ちに{修正|しゅうせい}するよう{指示|しじ}されました。	The audit exposed a serious vulnerability in our payment system, which the IT te
+oxford	strip (remove clothes/a layer)|C1	gloss	soft	NON_JOYO:剥	{剥|は}がす、{取|と}り{除|のぞ}く	#strip (remove clothes/a layer)|v.|to remove a covering or layer completely
+oxford	strip (remove clothes/a layer)|C1	ee	soft	NON_JOYO:剥	{塗|ぬ}り{直|なお}す{前|まえ}に、{作業|さぎょう}{員|いん}たちがアンティークのテーブルから{古|ふる}いニスを{剥|は}がすと、{何十|なんじゅう}{年|ねん}も{隠|かく}れていた{美|うつく}しい{木目|もくめ}が{現|あらわ}れました。	Before repainting, the workers stripped the old varnish off the antique table, r
+oxford	subsidy|C1	ee	soft	REG_P_NO_POLITE	{政府|せいふ}による{電気|でんき}{代|だい}の{補助|ほじょ}{金|きん}がなければ、この{地域|ちいき}の{多|おお}くの{小|ちい}さな{工場|こうじょう}は、{冬|ふゆ}の{間|あいだ}{操業|そうぎょう}を{続|つづ}けるのが{難|むずか}しいでしょう。	Without the government subsidy on electricity, many small factories in the regio
+oxford	weaken|C1	ee	soft	REG_P_NO_POLITE	{度重|たびかさ}なる{遅|おく}れでブランドに{対|たい}するお{客|きゃく}{様|さま}の{信頼|しんらい}が{弱|よわ}まり、その{愛着|あいちゃく}を{取|と}り{戻|もど}すには{相当|そうとう}な{努力|どりょく}が{必要|ひつよう}になるでしょう。	Repeated delays have weakened the customers' confidence in the brand, and rebuil
+pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
+pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
+pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
+pv	dress down|dress	gloss	soft	NON_JOYO:叱	ラフな{服装|ふくそう}をする、きつく{叱|しか}る	#dress down|phrasal verb|wear casual or informal clothes; scold someone severely
+pv	lay into|lay	ee	soft	NON_JOYO:叱	{締|し}め{切|き}りに{間|ま}に{合|あ}わなかったので、{上司|じょうし}は{彼|かれ}を{厳|きび}しく{叱|しか}りつけました。	His boss laid into him for missing the deadline.
+pv	lie behind|lie	ee	soft	REG_P_NO_POLITE	{彼|かれ}が{突然|とつぜん}{辞|や}めると{決|き}めた{本当|ほんとう}の{理由|りゆう}は{何|なん}なのでしょうか。	I wonder what really lies behind his sudden decision to quit.
+pv	live down|live	ee	soft	REG_P_NO_POLITE	ステージでつまずいたら、{一生|いっしょう}{笑|わら}われ{続|つづ}けるでしょう。	If I trip on stage, I'll never live it down.
+stories	st_0fd82cc8	title	soft	LEN_RATIO:0.14	{小鳥|ことり}と{嵐|あらし}	The Little Bird and the Storm
+stories	st_4975069c	title	soft	LEN_RATIO:0.14	{月|つき}の{庭|にわ}	The Garden on the Moon
+stories	st_d504d2b8	para	soft	NON_JOYO:炒	そこで{彼女|かのじょ}は{即興|そっきょう}で{作|つく}ることにしました。{肉|にく}を{焼|や}いた{天板|てんぱん}に{安|やす}い{赤|あか}ワインを{注|そそ}いでうまみをこそげ{取|と}り、あめ{色|いろ}に{炒|いた}めた{玉|たま}ねぎから{甘|あま}みを{引|ひ}き{出|だ}し、{誰|だれ}も{存在|そんざい}を{認|みと}めてはいけないことになっているまかない{用|よう}のグレービーをひとさじ{混|ま}ぜ{込|こ}みました。それはずるであり、{近道|ちかみち}であり、{料理|りょうり}{長|ちょう}が{説|と}いてきたすべてに{対|たい}するささやかな{異端|いたん}でした。けれども、{味|あじ}は{本物|ほんもの}に{驚|おどろ}くほど{近|ちか}いと、{彼女|かのじょ}も{認|みと}めざるを{得|え}ませんでした。	So she improvised. She deglazed a roasting tray with cheap red wine, coaxed swee
+stories	st_89fde09a	para	soft	NON_JOYO:炒	ワーンは{問|と}い{詰|つ}める{言葉|ことば}を{頭|あたま}の{中|なか}で{繰|く}り{返|かえ}しながら、ピムの{家|いえ}まで{車|くるま}を{走|はし}らせました。ところが、ピムがドアを{開|あ}けたとたん、まず{匂|にお}いが{押|お}し{寄|よ}せてきました。カルダモン、{炒|い}ったピーナッツ、{弱火|よわび}でことこと{煮|に}えるココナッツクリーム。{台所|だいどころ}のカウンターには、あのなくなったページが{瓶|びん}の{下|した}に{押|お}さえられて{広|ひろ}げてあり、その{横|よこ}には、ワーンが{一目|ひとめ}{見|み}ただけで{分|わ}かるほど、ひどい{出来|でき}になりかけているカレーの{鍋|なべ}がありました。	She drove to Pim's house rehearsing accusations. But when Pim opened the door, t
+syn	rebuke|	gloss	soft	NON_JOYO:叱	{叱|しか}る、{叱責|しっせき}する	#rebuke|v.|to tell someone strongly they did wrong
+syn	rebuke|	ee	soft	NON_JOYO:叱	{先生|せんせい}は{宿題|しゅくだい}の{答|こた}えを{写|うつ}したことでクラスを{叱|しか}りました。	The teacher rebuked the class for copying homework answers.
+topic	stir-fry|Food & Cooking	gloss	soft	NON_JOYO:炒	{炒|いた}める	#stir-fry|verb|to fry food quickly in a little oil
+topic	stir-fry|Food & Cooking	ee	soft	NON_JOYO:炒	{野菜|やさい}を{2分|にふん}ほど{炒|いた}めてください。	Stir-fry the vegetables for two minutes.
+topic	fry|Food & Cooking	gloss	soft	NON_JOYO:炒	{揚|あ}げる、{炒|いた}める	#fry|verb|to cook food in hot oil
+topic	suggest|Everyday Actions	ee	soft	REG_P_NO_POLITE	{代|か}わりにバスで{行|い}くのはどうでしょうか。	I suggest we take the bus instead.

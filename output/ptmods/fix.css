@@ -1,0 +1,26 @@
+/* fix.css — "หาที่ผิด" error-correction game */
+.fx-score { font-size: 13px; font-weight: 800; color: var(--muted); text-align: right; margin-bottom: 6px; font-variant-numeric: tabular-nums; }
+.fx-instr { font-size: 13px; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+.fx-card { padding: 16px; }
+.fx-sent { font-size: 18px; line-height: 2.2; }
+.fx-tok { font-family: var(--font); font-size: 17px; font-weight: 600; color: var(--text); cursor: pointer;
+  background: transparent; border: none; border-bottom: 2px solid transparent; border-radius: 6px; padding: 2px 4px; }
+.fx-tok:active { background: var(--surface2); }
+.fx-tok.fx-err { color: #fff; background: var(--know); border-radius: 7px; font-weight: 800; }
+.fx-tok.fx-wrongpick { color: #fff; background: #d9534f; border-radius: 7px; text-decoration: line-through; }
+
+.fx-verdict { font-size: 14px; font-weight: 800; border-radius: 10px; padding: 9px 12px; margin-top: 14px; }
+.fx-v-ok { background: var(--know-soft, rgba(46,139,100,.14)); color: var(--know); }
+.fx-v-no { background: rgba(217,83,79,.12); color: #d9534f; }
+.fx-fixbox { display: flex; align-items: center; gap: 10px; justify-content: center; margin-top: 12px; font-size: 18px; }
+.fx-x { color: #d9534f; text-decoration: line-through; font-weight: 700; }
+.fx-arrow { color: var(--muted); }
+.fx-fix { color: var(--know); font-weight: 900; }
+.fx-type { text-align: center; font-size: 12.5px; font-weight: 800; color: var(--accent); background: var(--accent-soft);
+  border-radius: 999px; padding: 4px 12px; margin: 12px auto 0; display: inline-block; }
+.fx-type-wrap { text-align: center; }
+.fx-why { font-size: 13px; color: var(--muted); margin-top: 10px; line-height: 1.55; text-align: center; }
+.fx-corrected { font-size: 15px; color: var(--text); background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px; margin-top: 14px; line-height: 1.6; }
+.fx-next { display: block; width: 100%; margin-top: 16px; font-family: var(--font); font-size: 15px; font-weight: 800;
+  color: var(--accent-ink); background: var(--accent); border: none; border-radius: 12px; padding: 13px; cursor: pointer; }

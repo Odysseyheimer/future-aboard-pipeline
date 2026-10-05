@@ -1,0 +1,113 @@
+/* PT.filtersUI styles — prefix .f-  (light + dark via CSS vars).
+   Horizontally scrollable, compact chip rows for iPhone. */
+
+#filters { display: block; }
+
+.f-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 6px 10px;
+  white-space: nowrap;
+  scrollbar-width: none;         /* Firefox */
+}
+.f-row::-webkit-scrollbar { display: none; } /* iOS/WebKit */
+
+.f-toolrow {
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Chips */
+.f-chip {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font: 500 13px/1 var(--font);
+  color: var(--text);
+  background: var(--surface2);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 11px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: background .12s ease, border-color .12s ease, color .12s ease;
+}
+.f-chip:active { transform: scale(0.96); }
+
+.f-chip.f-on {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.f-lab { display: inline-block; }
+
+/* Count badge on status chips */
+.f-count {
+  display: inline-block;
+  min-width: 16px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+}
+.f-chip.f-on .f-count {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* Segmented sort control */
+.f-seg {
+  flex: 0 0 auto;
+  display: inline-flex;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface2);
+}
+.f-segbtn {
+  flex: 0 0 auto;
+  font: 500 13px/1 var(--font);
+  color: var(--muted);
+  background: transparent;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.f-segbtn + .f-segbtn { border-left: 1px solid var(--border); }
+.f-segbtn.f-on {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+/* Clear-all */
+.f-clear {
+  flex: 0 0 auto;
+  font: 500 13px/1 var(--font);
+  color: var(--muted);
+  background: transparent;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 12px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.f-clear:active { transform: scale(0.96); }
+
+/* Hide the search bar + filter chips on screens that aren't word-list browsing
+   (ฝึก/สอบ/วันนี้/สถิติ/โครงสร้างประโยค). These modes carry the mode-nodeck class. */
+.mode-nodeck .row2,
+.mode-nodeck #filters { display: none; }

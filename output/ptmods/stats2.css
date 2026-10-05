@@ -1,0 +1,47 @@
+/* stats2.css — สถิติ dashboard: heatmap / forecast / maturity / retention. Prefix .st2d- */
+.st2d-sec { margin: 4px 0 18px; }
+.st2d-h { font-size: 14px; font-weight: 900; color: var(--text); margin-bottom: 10px; }
+.st2d-sub { font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--muted); margin: 16px 2px 8px; }
+.st2d-sub:first-of-type { margin-top: 0; }
+
+/* activity heatmap */
+.st2d-hm { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 11px); grid-auto-columns: 11px;
+  gap: 3px; overflow-x: auto; padding: 2px; }
+.st2d-hm-c { width: 11px; height: 11px; border-radius: 3px; background: var(--surface2); display: block; }
+.st2d-hm-l0 { background: var(--surface2); }
+.st2d-hm-l1 { background: color-mix(in srgb, var(--accent) 25%, var(--surface2)); }
+.st2d-hm-l2 { background: color-mix(in srgb, var(--accent) 50%, var(--surface2)); }
+.st2d-hm-l3 { background: color-mix(in srgb, var(--accent) 75%, var(--surface2)); }
+.st2d-hm-l4 { background: var(--accent); }
+.st2d-hm-leg { display: flex; align-items: center; gap: 4px; font-size: 10.5px; color: var(--muted); margin-top: 6px; }
+
+/* retention */
+.st2d-ret { display: flex; align-items: baseline; gap: 8px; background: var(--surface2); border-radius: 12px;
+  padding: 11px 13px; margin-top: 8px; }
+.st2d-ret-n { font-size: 22px; font-weight: 900; color: var(--know); }
+.st2d-ret-l { font-size: 12px; color: var(--muted); }
+
+/* maturity bars */
+.st2d-bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.st2d-bar-l { flex: 0 0 auto; width: 108px; font-size: 11.5px; color: var(--text); }
+.st2d-bar-track { flex: 1; height: 8px; background: var(--surface2); border-radius: 999px; overflow: hidden; }
+.st2d-bar-track i { display: block; height: 100%; border-radius: 999px; }
+.st2d-bar-v { flex: 0 0 auto; width: 34px; text-align: right; font-size: 11.5px; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+
+/* forecast */
+.st2d-overdue { color: #d9534f; font-weight: 700; text-transform: none; letter-spacing: 0; }
+.st2d-fc { display: flex; align-items: flex-end; gap: 4px; height: 70px; padding: 2px; }
+.st2d-fc-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 3px; }
+.st2d-fc-bar { width: 100%; max-width: 14px; background: var(--accent); border-radius: 3px 3px 0 0; min-height: 3px; }
+.st2d-fc-col span { font-size: 9px; color: var(--muted); }
+
+/* leech notice */
+.st2d-leech { font-size: 12px; color: var(--text); background: var(--accent-soft); border-radius: 10px;
+  padding: 9px 11px; margin-top: 14px; line-height: 1.55; }
+
+/* advanced settings */
+.st2d-adv { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
+.st2d-adv-h { font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 8px; }
+.st2d-adv-row { display: flex; align-items: flex-start; gap: 9px; font-size: 12.5px; color: var(--text); line-height: 1.5; cursor: pointer; }
+.st2d-adv-row input { margin-top: 3px; flex: 0 0 auto; }

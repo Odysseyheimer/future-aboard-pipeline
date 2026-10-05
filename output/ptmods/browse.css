@@ -1,0 +1,184 @@
+/* PT.browse — Browse tab styles. Prefix ".pg-". Light + dark via vars. */
+
+.pg-count {
+  padding: 8px 12px;
+  color: var(--muted);
+  font: 13px/1.4 var(--font);
+}
+
+.pg-host { padding-bottom: 12px; }
+
+.pg-empty {
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Rows */
+.pg-list { display: block; }
+
+.pg-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+}
+.pg-row:active { background: var(--surface2); }
+
+.pg-tag {
+  flex: 0 0 auto;
+  min-width: 34px;
+  text-align: center;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font: 600 11px/1.2 var(--font);
+  color: var(--accent-ink);
+}
+.pg-tag-plain {
+  background: var(--surface2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.pg-main { flex: 1 1 auto; min-width: 0; }
+
+.pg-w {
+  font: 600 15px/1.3 var(--font);
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pg-pos {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--muted);
+}
+.pg-mt {
+  font: 13px/1.4 var(--font);
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pg-dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Pager */
+.pg-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 14px 8px;
+}
+.pg-pg, .pg-nav {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: 14px/1 var(--font);
+  cursor: pointer;
+}
+.pg-pg:active, .pg-nav:active { background: var(--surface2); }
+.pg-cur {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+.pg-nav[disabled] { opacity: .4; cursor: default; }
+.pg-gap { padding: 0 4px; color: var(--muted); }
+
+/* Bottom sheet */
+.pg-sheet {
+  position: relative;
+  padding: 20px 16px 28px;
+  font: 14px/1.5 var(--font);
+  color: var(--text);
+}
+.pg-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface2);
+  color: var(--text);
+  font-size: 16px;
+  cursor: pointer;
+}
+.pg-sh-head { margin: 4px 44px 12px 0; }
+.pg-sh-word { font: 700 22px/1.2 var(--font); color: var(--text); }
+.pg-sh-pos { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+.pg-sh-me { color: var(--text); margin-bottom: 4px; }
+.pg-sh-mt { color: var(--muted); margin-bottom: 12px; }
+
+.pg-sh-row { margin-bottom: 10px; }
+.pg-sh-lab {
+  display: inline-block;
+  font: 600 11px/1.2 var(--font);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--accent);
+  margin-right: 6px;
+}
+.pg-sh-val { color: var(--text); }
+
+.pg-sh-ex {
+  background: var(--surface2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 8px 0 12px;
+}
+.pg-sh-ee { color: var(--text); }
+.pg-sh-et { color: var(--muted); margin-top: 4px; }
+.pg-spk {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.pg-sh-note, .pg-sh-rq {
+  margin-top: 10px;
+  color: var(--text);
+}
+
+/* verb forms V1 -> V2 -> V3 */
+.pg-sh-vf { display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  background: var(--surface2); border-radius: 12px; padding: 11px 12px; margin: 4px 0 14px; }
+.pg-vf-cell { display: flex; flex-direction: column; gap: 2px; }
+.pg-vf-l { font: 700 10.5px/1.2 var(--font); text-transform: uppercase; letter-spacing: .03em; color: var(--accent); }
+.pg-vf-w { font: 700 15px/1.3 var(--font); color: var(--text); }
+.pg-vf-ar { color: var(--muted); font-size: 14px; }
+.pg-vf-ir { flex: 0 0 100%; font-size: 12px; color: var(--text); background: var(--accent-soft);
+  border-radius: 8px; padding: 6px 9px; margin-top: 2px; line-height: 1.5; }
+
+/* item running numbers (#N, match the daily plan) */
+.pg-no { font-size: 11px; font-weight: 800; color: var(--muted); background: var(--surface2);
+  border-radius: 6px; padding: 1px 5px; vertical-align: 1px; font-variant-numeric: tabular-nums; }
+.pg-sh-no { color: var(--accent); font-weight: 700; }
+
+/* library header (คลัง) */
+.lib-head { display: flex; align-items: center; gap: 10px; margin: 2px 2px 8px; }
+.lib-title { flex: 1; min-width: 0; font-size: 18px; font-weight: 900; }
+.lib-review { flex: 0 0 auto; font-family: var(--font); font-size: 13px; font-weight: 800; color: var(--accent-ink);
+  background: var(--accent); border: none; border-radius: 999px; padding: 8px 15px; cursor: pointer; }
+.lib-review:active { transform: scale(.97); }
