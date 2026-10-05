@@ -11,6 +11,8 @@ conversations	publictr-61	kp	soft	NON_JOYO:〇	このバスは{〇〇|まるま�
 knowledge	photosynthesis|Science & Technical	ee	soft	REG_P_NO_POLITE	{光合成|こうごうせい}がなければ、{動物|どうぶつ}のための{酸素|さんそ}は{存在|そんざい}しないでしょう。	Without photosynthesis, there would be no oxygen for animals.
 knowledge	communication|Technology & Innovation	ee	soft	REG_P_NO_POLITE	{5|ふぁいぶ}Gによってモバイル{通信|つうしん}が{向上|こうじょう}するでしょう。	5G will improve mobile communication.
 knowledge	homeostasis|Biology & Natural Science	au	soft	NON_JOYO:膵	{膵臓|すいぞう}は、インスリンとグルカゴンを{分泌|ぶんぴつ}することで、グルコースのホメオスタシスを{保|たも}ちます。	The pancreas maintains glucose homeostasis by releasing insulin and glucagon.
+knowledge	cross-cultural|Culture & Anthropology	au	soft	NON_JOYO:姦	{本|ほん}{研究|けんきゅう}は{異|い}{文化|ぶんか}{間|かん}{比較|ひかく}を{用|もち}いて、{近親|きんしん}{相姦|そうかん}のタブーが{本当|ほんとう}に{普遍|ふへん}{的|てき}なものかどうかを{検証|けんしょう}しています。	Using a cross-cultural comparison, the study tests whether the incest taboo is t
+knowledge	lithic|History & Archaeology	au	soft	NON_JOYO:剥	リシック・デビタージュと{呼|よ}ばれる{剥片|はくへん}{状|じょう}の{石|いし}くずは、その{場|ば}で{石器|せっき}が{作|つく}られていたことを{示|しめ}しています。	The flakes of stone waste, known as lithic debitage, reveal that tools were bein
 oxford	hi|A1	ee	soft	REG_P_NO_POLITE	こんにちは、はじめまして。	Hi, nice to meet you.
 oxford	hi|A1	xs	soft	REG_P_NO_POLITE	こんにちは、{当店|とうてん}へようこそ。	Hi, welcome to our shop.
 oxford	welcome|A1	ee	soft	REG_P_NO_POLITE	{私|わたし}たちのオフィスへようこそ！	Welcome to our office!
