@@ -44,6 +44,17 @@ pv	lay into|lay	ee	soft	NON_JOYO:叱	{締|し}め{切|き}りに{間|ま}に{合
 pv	lie behind|lie	ee	soft	REG_P_NO_POLITE	{彼|かれ}が{突然|とつぜん}{辞|や}めると{決|き}めた{本当|ほんとう}の{理由|りゆう}は{何|なん}なのでしょうか。	I wonder what really lies behind his sudden decision to quit.
 pv	live down|live	ee	soft	REG_P_NO_POLITE	ステージでつまずいたら、{一生|いっしょう}{笑|わら}われ{続|つづ}けるでしょう。	If I trip on stage, I'll never live it down.
 pv	break down|break	xs	soft	REG_P_NO_POLITE	この{暑|あつ}さでエアコンが{壊|こわ}れたら、みんな{早|はや}めに{帰|かえ}ることになるでしょうね。	If the AC breaks down in this heat, we're all going home early.
+pv	pass over|pass	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:会議,UNRESOLVED:NOREAD:気,UNRESOLVED:NOREAD:流,UNRESOLVED:NOREAD:私,UNRESOLVED:NOREAD:聞	{会議|かいぎ}で、{私|わたくし}のアイデアは{聞|き}き{流|なが}されてしまった{気|き}がします。	I felt like they just passed over my idea in the meeting.
+pv	pay for|pay	xs	soft	NON_JOYO:嘘	{遅|おそ}かれ{早|はや}かれ、あいつはあの{嘘|うそ}の{報|むく}いを{受|う}けるよ。{本当|ほんとう}だって。	He'll pay for that lie sooner or later, trust me.
+pv	stand up to|stand	xs	soft	REG_P_NO_POLITE	あの{古|ふる}い{橋|はし}は、また{厳|きび}しい{冬|ふゆ}に{耐|た}えられるでしょうか。	Will the old bridge stand up to another harsh winter?
+pv	throw down|throw	xs	soft	NON_JOYO:叩	{彼女|かのじょ}は{報告|ほうこく}{書|しょ}を{私|わたし}の{机|つくえ}に{叩|たた}きつけて、{怒|おこ}って{出|で}ていきました。	She threw the report down on my desk and stormed off.
+pv	throw down|throw	xs	soft	NON_JOYO:叩	チャンピオンは「おれのタイムを{超|こ}えろ。できなければ{帰|かえ}れ」と{挑戦|ちょうせん}{状|じょう}を{叩|たた}きつけました。	The champ threw down a challenge: beat his time or go home.
+pv	throw in|throw	xs	soft	REG_P_NO_POLITE	{次|つぎ}に{進|すす}む{前|まえ}に、{一|ひと}つだけ{付|つ}け{加|くわ}えてもよろしいでしょうか…	If I can just throw in one thing before we move on...
+pv	throw off|throw	xs	soft	REG_C_BUT_POLITE	ごめん、その{質問|しつもん}ですっかり{混乱|こんらん}しちゃった。{何|なん}の{話|はなし}をしてたっけ？	Sorry, your question totally threw me off, what was I saying?
+pv	write out of|write	xs	soft	REG_P_NO_POLITE	{契約|けいやく}{交渉|こうしょう}がうまくいかなければ、{次|つぎ}のシーズンでは{彼女|かのじょ}の{役|やく}はおそらく{外|はず}されるでしょう。	If the contract talks fail, they'll probably write her out of the next season.
+pv	hand over|hand	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:一晩中,UNRESOLVED:NOREAD:番組選,UNRESOLVED:NOREAD:貸	いいからリモコン{貸|か}して。{一|いち}{晩|ばん}{中|ちゅう}ずっと{番組|ばんぐみ}{選|えら}んでたじゃん。	Just hand over the remote, you've been picking the shows all night.
+pv	add up|add	xs	soft	REG_C_BUT_POLITE,NON_JOYO:腑	この{取引|とりひき}はどこか{腑|ふ}に{落|お}ちない。{話|はなし}がうますぎるよ。	Something about this deal doesn't add up, it sounds too good to be true.
+pv	beat up on|beat	xs	soft	NON_JOYO:叩	{負|ま}けて{以来|いらい}、マスコミはずっとそのコーチを{叩|たた}いています。	The press has been beating up on the coach ever since they lost.
 stories	st_0fd82cc8	title	soft	LEN_RATIO:0.14	{小鳥|ことり}と{嵐|あらし}	The Little Bird and the Storm
 stories	st_4975069c	title	soft	LEN_RATIO:0.14	{月|つき}の{庭|にわ}	The Garden on the Moon
 stories	st_d504d2b8	para	soft	NON_JOYO:炒	そこで{彼女|かのじょ}は{即興|そっきょう}で{作|つく}ることにしました。{肉|にく}を{焼|や}いた{天板|てんぱん}に{安|やす}い{赤|あか}ワインを{注|そそ}いでうまみをこそげ{取|と}り、あめ{色|いろ}に{炒|いた}めた{玉|たま}ねぎから{甘|あま}みを{引|ひ}き{出|だ}し、{誰|だれ}も{存在|そんざい}を{認|みと}めてはいけないことになっているまかない{用|よう}のグレービーをひとさじ{混|ま}ぜ{込|こ}みました。それはずるであり、{近道|ちかみち}であり、{料理|りょうり}{長|ちょう}が{説|と}いてきたすべてに{対|たい}するささやかな{異端|いたん}でした。けれども、{味|あじ}は{本物|ほんもの}に{驚|おどろ}くほど{近|ちか}いと、{彼女|かのじょ}も{認|みと}めざるを{得|え}ませんでした。	So she improvised. She deglazed a roasting tray with cheap red wine, coaxed swee
