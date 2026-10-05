@@ -1,6 +1,6 @@
 """Blind back-translation + meaning judge for resolved TM units (QA only, never overrides).
 
-    python export_bt.py --tag P0 [--sample 1.0] [--decks pv,knowledge] [--fields xs,au]   # -> chunks/B<tag>-NN.json + wf/ja_bt_<tag>.wf.js
+    python export_bt.py --tag P0 [--sample 1.0] [--decks pv,knowledge] [--fields xs,au] [--levels A2]   # -> chunks/B<tag>-NN.json + wf/ja_bt_<tag>.wf.js
     python bt_compare.py <runDir>                   # -> reports/bt_<tag>.tsv
 
 Stage 1 sees ONLY the Japanese and writes English. Stage 2 sees the original English, the Japanese
@@ -65,9 +65,11 @@ def main():
     ap.add_argument("--glosses", action="store_true")
     ap.add_argument("--decks", default="", help="comma list; default all decks")
     ap.add_argument("--fields", default="", help="comma list of unit fields (e.g. xs,au); default all")
+    ap.add_argument("--levels", default="", help="comma list of item groups, e.g. A2 (the part after | in sc)")
     a = ap.parse_args()
     decks = set(filter(None, a.decks.split(",")))
     fields = set(filter(None, a.fields.split(",")))
+    levels = set(filter(None, a.levels.split(",")))
     random.seed(a.tag)
     units = []
     for p in sorted(TM_DIR.glob("*.jsonl")):
@@ -78,6 +80,8 @@ def main():
             if (r.get("f") == "gloss" and not a.glosses) or (sc, _en) in judged:
                 continue                       # glosses are word lists; judged by the review stage
             if fields and r.get("f") not in fields:
+                continue
+            if levels and sc.rpartition("|")[2] not in levels:
                 continue
             if random.random() <= a.sample:
                 units.append(r)
