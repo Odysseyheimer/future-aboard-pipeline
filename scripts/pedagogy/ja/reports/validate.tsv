@@ -55,6 +55,19 @@ oxford	flower|A1	xs	soft	REG_P_NO_POLITE	なんてきれいな{花|はな}でし
 oxford	goodbye|A1	xs	soft	REG_P_NO_POLITE	さようなら、どうぞお{気|き}をつけて。	Goodbye, have a safe trip.
 oxford	happen|A1	xs	soft	REG_P_NO_POLITE	{次|つぎ}に{何|なに}が{起|お}こるでしょうか。	What will happen next?
 oxford	hello|A1	xs	soft	REG_P_NO_POLITE	こんにちは、はじめまして。	Hello, nice to meet you.
+oxford	here|A1	xs	soft	REG_P_NO_POLITE	はい、コーヒーをどうぞ。	Here is your coffee.
+oxford	improve|A1	xs	soft	REG_P_NO_POLITE	{明日|あした}は{天気|てんき}がよくなるでしょう。	The weather will improve tomorrow.
+oxford	interesting|A1	xs	soft	REG_P_NO_POLITE	なんて{面白|おもしろ}い{場所|ばしょ}でしょう！	What an interesting place!
+oxford	introduce|A1	xs	soft	REG_P_NO_POLITE	{妻|つま}をご{紹介|しょうかい}してもよろしいでしょうか。	May I introduce my wife?
+oxford	oh|A1	xs	soft	REG_P_NO_POLITE	ああ、{本当|ほんとう}にごめんなさい。	Oh, I'm so sorry.
+oxford	onion|A1	xs	soft	NON_JOYO:炒	{彼女|かのじょ}は{玉|たま}ねぎを{油|あぶら}で{炒|いた}めました。	She fried the onion in oil.
+oxford	present|A1	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}に{何|なん}のプレゼントを{買|か}えばいいでしょうか。	What present should I buy her?
+oxford	pretty|A1	xs	soft	REG_P_NO_POLITE	なんてきれいな{花|はな}でしょう！	What a pretty flower!
+oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}はたぶん{雨|あめ}が{降|ふ}るでしょう。	It will probably rain today.
+oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}はたぶん{時間|じかん}を{忘|わす}れたんでしょう。	He probably forgot the time.
+oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}らはたぶん{明日来|あしたく}るでしょう。	They'll probably come tomorrow.
+oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{店|みせ}はたぶんもう{閉|し}まっているでしょう。	The shop is probably closed now.
+oxford	should|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}は{何|なに}を{着|き}たらいいでしょうか。	What should I wear today?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
