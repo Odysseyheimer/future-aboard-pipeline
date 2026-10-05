@@ -68,6 +68,13 @@ oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}はたぶん{時間|じ�
 oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}らはたぶん{明日来|あしたく}るでしょう。	They'll probably come tomorrow.
 oxford	probably|A1	xs	soft	REG_P_NO_POLITE	{店|みせ}はたぶんもう{閉|し}まっているでしょう。	The shop is probably closed now.
 oxford	should|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}は{何|なに}を{着|き}たらいいでしょうか。	What should I wear today?
+oxford	welcome|A1	xs	soft	REG_P_NO_POLITE	ようこそ、わが{家|や}へ！	Welcome to my home!
+oxford	welcome|A1	xs	soft	REG_P_NO_POLITE	{職場|しょくば}へお{帰|かえ}りなさい！	Welcome back to work!
+oxford	will|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}の{午後|ごご}は{雨|あめ}が{降|ふ}るでしょう。	It will rain this afternoon.
+oxford	will|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}らは{試合|しあい}に{勝|か}つでしょう。	They will win the game.
+oxford	win|A1	xs	soft	REG_P_NO_POLITE	{誰|だれ}がレースに{勝|か}つでしょうか。	Who will win the race?
+oxford	yourself|A1	xs	soft	REG_P_NO_POLITE	ケーキをご{自由|じゆう}にどうぞ。	Help yourself to some cake.
+oxford	wonderful|A1	xs	soft	REG_P_NO_POLITE	なんてすばらしい{日|ひ}でしょう！	What a wonderful day!
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
