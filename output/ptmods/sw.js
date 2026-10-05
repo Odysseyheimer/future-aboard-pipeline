@@ -13,7 +13,7 @@
 */
 
 /* eslint-disable no-var */
-var CACHE = "pocket-tutor-v125";
+var CACHE = "pocket-tutor-v126";
 // Japanese sidecars (data/ja/<file>.<sha8>.json) are content-addressed, so they live in their own
 // cache that is NEVER bumped: a deploy does not make phones re-download them. JA_KEEP prunes old ones.
 var JA_CACHE = "pocket-tutor-ja";
