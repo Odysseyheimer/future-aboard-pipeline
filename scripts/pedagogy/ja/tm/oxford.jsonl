@@ -21894,3 +21894,4 @@
 {"d": "oxford", "sc": "writer|A1", "f": "xs", "en": "He is a famous story writer.", "st": "bt", "en_bt": "He is a famous novelist.", "bad": false, "note": "", "by": "wf_42332278-5c2/BP4A1-07/bt", "lid": "b017", "v": 1}
 {"d": "oxford", "sc": "writer|A1", "f": "xs", "en": "The young writer won a prize.", "st": "bt", "en_bt": "That young writer won an award.", "bad": false, "note": "", "by": "wf_42332278-5c2/BP4A1-07/bt", "lid": "b018", "v": 1}
 {"d": "oxford", "sc": "writing|A1", "f": "xs", "en": "I like writing in the morning.", "st": "bt", "en_bt": "I like writing in the morning.", "bad": false, "note": "", "by": "wf_42332278-5c2/BP4A1-07/bt", "lid": "b019", "v": 1}
+{"d": "oxford", "sc": "goodbye|A1", "f": "xs", "en": "Let's say goodbye to grandma.", "ja": "おばあちゃんにさようならを言いましょう。", "yo": "おばあちゃんにさようならをいいましょう", "reg": "p", "st": "verify", "by": "wf_e3fefe00-daa/FP4A1-01/verify", "lid": "f001", "ts": "2026-10-05T07:45:48.000001", "v": 1}
