@@ -5,7 +5,7 @@ The app itself is published from the **public** repo `Odysseyheimer/future-aboar
 This repo is **private** and holds the generation pipeline, the translation memory and the app sources.
 
 > Privacy rule: never commit or push anything that contains the owner's real name, email, local Windows
-> paths or the app passcode. Commit as `Odysseyheimer <nopskunggmaer24@gmail.com>`.
+> paths or the app passcode. Commit as `Odysseyheimer <nopskunggamer24@gmail.com>`.
 
 ## Layout
 
