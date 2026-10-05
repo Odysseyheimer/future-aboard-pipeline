@@ -34,7 +34,7 @@ python -X utf8 validate_ja.py
 python -X utf8 ja_build.py --pilot  # sidecars + index + parity test
 ```
 
-## Status (2026-10-05, v127)
+## Status (2026-10-05, v128)
 
 | Phase | Content | State |
 |---|---|---|
@@ -42,12 +42,12 @@ python -X utf8 ja_build.py --pilot  # sidecars + index + parity test
 | P1 | sentences 1,744 · conversations 500 · stories 80 (7,667 lines) | **live v123** — verified, back-translation 100% (11 fixed) |
 | P2 | glosses + main example `ee` + knowledge `kn` for all 8 word decks (23,186 lines) | **live v125** — all 1,863 flagged readings verified (round 4: 323, 15 corrected; 0 flagged left); back-translation 5% (1,157) → 2 drift (0.2%), fixed |
 | P3 | pv extra examples `xs` 3,608 + knowledge `au` 2,080 | **live v126** — 6 waves; 672 flagged readings verified (28 corrected; 0 flagged); back-translation 5% (287) → 1 drift (0.3%), fixed |
-| P4 | oxford extra examples `xs` 44,811, one CEFR level at a time | **A1 live v127** (8,100/8,100; 525 readings verified, 8 corrected; bt 5% (379) → 1 drift, fixed). A2 7,191 · B1 6,300 · B2 11,682 · C1 11,538 not started |
+| P4 | oxford extra examples `xs` 44,811, one CEFR level at a time | **A1 live v127** (8,100/8,100; 525 readings verified, 8 corrected; bt 5% (379) → 1 drift, fixed). **A2 live v128** (7,191/7,191; 560 verified, 17 corrected; bt 5% (339) → 2 drift, fixed). B1 6,300 · B2 11,682 · C1 11,538 not started |
 
 ### Next steps
-1. P4 next level (owner's call, one level at a time): `export_ja.py --phase P4 --level A2 --delta` → run the
-   waves → harvest → `reading_ja.py` → `export_verify.py --round 7` → `export_bt.py --tag P4A2 --sample 0.05
-   --decks oxford --fields xs` → `export_fix.py` → `ja_build.py --pilot` → deploy as v128.
+1. P4 next level (owner's call, one level at a time): `export_ja.py --phase P4 --level B1 --delta` → run the
+   waves → harvest → `reading_ja.py` → `export_verify.py --round 8` → `export_bt.py --tag P4B1 --sample 0.05
+   --decks oxford --fields xs --levels B1` → `export_fix.py` → `ja_build.py --pilot` → deploy as v129.
    Cost reference (cloud session credits): A1 (7,645 lines, ~165 agents) — see the owner's credit balance.
 
 Back-translation for one phase only: `export_bt.py --tag PX --sample 0.05 --decks <d1,d2> --fields <f1,f2>`
@@ -74,7 +74,7 @@ back-translation (`export_bt.py`) → `export_fix.py` for drift → `ja_build.py
 ## Deploy to future-aboard
 1. `python -X utf8 scripts/pedagogy/ja/ja_build.py --pilot` then `python -X utf8 scripts/pedagogy/assemble_app.py`
 2. In a checkout of `Odysseyheimer/future-aboard`: copy `output/app.html` → `app.html`; copy `output/ptmods/sw.js`
-   → `sw.js` after bumping `CACHE` (`pocket-tutor-v127` is live; next is v128); replace `data/ja/` with
+   → `sw.js` after bumping `CACHE` (`pocket-tutor-v128` is live; next is v129); replace `data/ja/` with
    `output/data/ja/` (delete files no longer in `index.json`).
 3. Commit, push, then check `https://odysseyheimer.github.io/future-aboard/sw.js` shows the new CACHE and one
    `data/ja/*.json` returns 200.
