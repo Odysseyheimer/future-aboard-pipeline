@@ -23,31 +23,34 @@ This repo is **private** and holds the generation pipeline, the translation memo
 
 ```bash
 python -m pip install -r requirements.txt
+# if unidic-lite fails to build ("install_layout"): SETUPTOOLS_USE_DISTUTILS=stdlib pip install unidic-lite
 # reading witness for word glosses (QA only, ~47 MB, not committed):
 #   download JmdictFurigana.json from https://github.com/Doublevil/JmdictFurigana/releases
 #   into scripts/pedagogy/ja/ref/JmdictFurigana.json
 cd scripts/pedagogy/ja
+mkdir -p chunks wf                  # gitignored work dirs the exporters write into
 python -X utf8 reading_ja.py        # rebuilds the derived.jsonl cache from the TM (takes a few minutes)
 python -X utf8 validate_ja.py
 python -X utf8 ja_build.py --pilot  # sidecars + index + parity test
 ```
 
-## Status (2026-10-05)
+## Status (2026-10-05, v125)
 
 | Phase | Content | State |
 |---|---|---|
 | P0 | pilot | done |
 | P1 | sentences 1,744 · conversations 500 · stories 80 (7,667 lines) | **live v123** — verified, back-translation 100% (11 fixed) |
-| P2 | glosses + main example `ee` + knowledge `kn` for all 8 word decks (23,186 lines) | **live v124** — 1,540 flagged readings verified; **323 still unverified**; back-translation sample **not run yet** |
+| P2 | glosses + main example `ee` + knowledge `kn` for all 8 word decks (23,186 lines) | **live v125** — all 1,863 flagged readings verified (round 4: 323, 15 corrected; 0 flagged left); back-translation 5% (1,157) → 2 drift (0.2%), fixed |
 | P3 | pv extra examples `xs` 3,608 + knowledge `au` 2,080 | not started |
 | P4 | oxford extra examples `xs` 44,811, one CEFR level at a time | not started (owner decides after a week of use) |
 
 ### Next steps
-1. `python -X utf8 export_verify.py --round 4` → run the wave(s) → `harvest_ja.py <runDir>` → `reading_ja.py` → `validate_ja.py`
-2. `python -X utf8 export_bt.py --tag P2 --sample 0.05 --glosses --per 70` → run → `bt_compare.py <runDir>` (copy
-   `reports/bt_P2.tsv` per wave; it is overwritten) → `export_fix.py --tag P2 reports/bt_P2*.tsv` → run → harvest
-3. `ja_build.py --pilot` → `assemble_app.py` → deploy (below) as v125
-4. P3: `export_ja.py` needs a `P3` branch in `build_chunks` (units: `word_units(deck, it, ("xs","au"))` for pv + knowledge)
+1. P3: `export_ja.py` needs a `P3` branch in `build_chunks` (units: `word_units(deck, it, ("xs","au"))` for pv + knowledge),
+   then the per-phase flow below; deploy as v126.
+2. P4: owner decides after a week of use (is the Japanese on the extra examples actually read?).
+
+Note: since `adaa4f8`, a verify override on a gloss block outranks the JmdictFurigana witness (before, words whose
+dictionary listed another reading stayed flagged after any number of verify rounds).
 
 ## Per-phase flow
 
@@ -67,7 +70,7 @@ back-translation (`export_bt.py`) → `export_fix.py` for drift → `ja_build.py
 ## Deploy to future-aboard
 1. `python -X utf8 scripts/pedagogy/ja/ja_build.py --pilot` then `python -X utf8 scripts/pedagogy/assemble_app.py`
 2. In a checkout of `Odysseyheimer/future-aboard`: copy `output/app.html` → `app.html`; copy `output/ptmods/sw.js`
-   → `sw.js` after bumping `CACHE` (`pocket-tutor-v124` is live; next is v125); replace `data/ja/` with
+   → `sw.js` after bumping `CACHE` (`pocket-tutor-v125` is live; next is v126); replace `data/ja/` with
    `output/data/ja/` (delete files no longer in `index.json`).
 3. Commit, push, then check `https://odysseyheimer.github.io/future-aboard/sw.js` shows the new CACHE and one
    `data/ja/*.json` returns 200.
