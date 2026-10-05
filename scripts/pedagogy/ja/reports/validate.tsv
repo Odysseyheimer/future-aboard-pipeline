@@ -73,6 +73,21 @@ oxford	will|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}らは{試合|しあい}に{�
 oxford	win|A1	xs	soft	REG_P_NO_POLITE	{誰|だれ}がレースに{勝|か}つでしょうか。	Who will win the race?
 oxford	yourself|A1	xs	soft	REG_P_NO_POLITE	ケーキをご{自由|じゆう}にどうぞ。	Help yourself to some cake.
 oxford	wonderful|A1	xs	soft	REG_P_NO_POLITE	なんてすばらしい{日|ひ}でしょう！	What a wonderful day!
+oxford	accept|A2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:入,UNRESOLVED:NOREAD:受,UNRESOLVED:NOREAD:職場	{職場|しょくば}でアイデアは{受|う}け{入|い}れられましたか。	Did they accept your idea at work?
+oxford	affect|A2	xs	soft	REG_P_NO_POLITE	{雨|あめ}で{予定|よてい}に{影響|えいきょう}が{出|で}るでしょうか。	Will the rain affect our plans?
+oxford	allow|A2	xs	soft	REG_P_NO_POLITE	ご{両親|りょうしん}は{行|い}ってもいいと{言|い}ってくれるでしょうか。	Will your parents allow you to go?
+oxford	attack|A2	xs	soft	REG_P_NO_POLITE	どうしてハチに{襲|おそ}われたんでしょう。	Why did the bees attack us?
+oxford	attractive|A2	xs	soft	REG_P_NO_POLITE	{旅行|りょこう}{先|さき}として、{町|まち}の{魅力|みりょく}は{何|なに}で{決|き}まるのでしょうか。	What makes a city attractive to visit?
+oxford	behaviour|A2	xs	soft	REG_P_NO_POLITE	{何|なに}が{原因|げんいん}で{彼|かれ}はあんなに{変|へん}な{行動|こうどう}をしたのでしょうか。	What caused his strange behaviour?
+oxford	benefit|A2	xs	soft	REG_P_NO_POLITE	{新|あたら}しい{計画|けいかく}はみんなのためになるでしょう。	The new plan will benefit everyone.
+oxford	blow|A2	xs	soft	REG_P_NO_POLITE	{今夜|こんや}は{風|かぜ}が{強|つよ}く{吹|ふ}くでしょう。	The wind will blow hard tonight.
+oxford	burn|A2	xs	soft	REG_P_NO_POLITE	{古|ふる}い{紙|かみ}は{全部|ぜんぶ}、{火|ひ}で{燃|も}えてしまうでしょう。	The fire will burn all the old paper.
+oxford	community|A2	xs	soft	REG_P_NO_POLITE	{地域|ちいき}のために{何|なに}ができるでしょうか。	How can I help my community?
+oxford	cover|A2	xs	soft	NON_JOYO:咳	{咳|せき}をするときは{口|くち}を{覆|おお}ってください。	Cover your mouth when you cough.
+oxford	disappear|A2	xs	soft	REG_P_NO_POLITE	{鍵|かぎ}はどこに{消|き}えたんでしょう。	Where did my keys disappear to?
+oxford	effect|A2	xs	soft	REG_P_NO_POLITE	これは{私|わたし}たちにどんな{影響|えいきょう}があるでしょうか。	What effect will this have on us?
+oxford	employ|A2	xs	soft	REG_P_NO_POLITE	{来年|らいねん}はもっと{従業|じゅうぎょう}{員|いん}を{雇|やと}うでしょうか。	Will they employ more staff next year?
+oxford	engine|A2	xs	soft	REG_P_NO_POLITE	{今朝|けさ}はどうしてエンジンがかからないんでしょう。	Why won't the engine start this morning?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
