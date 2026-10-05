@@ -73,7 +73,6 @@ oxford	will|A1	xs	soft	REG_P_NO_POLITE	{彼|かれ}らは{試合|しあい}に{�
 oxford	win|A1	xs	soft	REG_P_NO_POLITE	{誰|だれ}がレースに{勝|か}つでしょうか。	Who will win the race?
 oxford	yourself|A1	xs	soft	REG_P_NO_POLITE	ケーキをご{自由|じゆう}にどうぞ。	Help yourself to some cake.
 oxford	wonderful|A1	xs	soft	REG_P_NO_POLITE	なんてすばらしい{日|ひ}でしょう！	What a wonderful day!
-oxford	accept|A2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:入,UNRESOLVED:NOREAD:受,UNRESOLVED:NOREAD:職場	{職場|しょくば}でアイデアは{受|う}け{入|い}れられましたか。	Did they accept your idea at work?
 oxford	affect|A2	xs	soft	REG_P_NO_POLITE	{雨|あめ}で{予定|よてい}に{影響|えいきょう}が{出|で}るでしょうか。	Will the rain affect our plans?
 oxford	allow|A2	xs	soft	REG_P_NO_POLITE	ご{両親|りょうしん}は{行|い}ってもいいと{言|い}ってくれるでしょうか。	Will your parents allow you to go?
 oxford	attack|A2	xs	soft	REG_P_NO_POLITE	どうしてハチに{襲|おそ}われたんでしょう。	Why did the bees attack us?
