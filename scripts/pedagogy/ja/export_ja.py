@@ -113,7 +113,7 @@ def render_chunk(kind: str, rows: list[dict]) -> str:
     return "\n".join(L).strip()
 
 
-def build_chunks(phase: str, delta: bool):
+def build_chunks(phase: str, delta: bool, level: str = ""):
     chunks = []
     if phase == "P0":
         sel = U.pilot()
@@ -133,6 +133,14 @@ def build_chunks(phase: str, delta: bool):
         for d in ("pv", "knowledge"):
             for it in U.load_deck(d):
                 us += U.word_units(d, it, ("xs", "au"))
+        us = U.dedup(us)
+    elif phase == "P4":                                # oxford extra examples, one CEFR level per run
+        if not level:
+            raise SystemExit("P4 needs --level A1|A2|B1|B2|C1")
+        us = []
+        for it in U.load_deck("oxford"):
+            if it.get("g") == level:
+                us += U.word_units("oxford", it, ("xs",))
         us = U.dedup(us)
     elif phase == "P1":
         us = U.units_for({"sentences": U.load_deck("sentences"), "conversations": U.load_deck("conversations"),
@@ -167,7 +175,7 @@ def build_chunks(phase: str, delta: bool):
         if not heads or heads[-1][0] != u["sc"]:
             heads.append((u["sc"], []))
         heads[-1][1].append(u)
-    per_head = 10 if phase == "P0" else 25
+    per_head = 10 if phase == "P0" else 12 if phase == "P4" else 25   # P4: 9 extras per word -> ~108 lines per chunk
     wi = 0
     for i in range(0, len(heads), per_head):
         rows = [u for _, rs in heads[i:i + per_head] for u in rs]
@@ -244,8 +252,8 @@ def write_wave(phase: str, chunks: list, n: int) -> Path:
     s = (WAVE_TMPL.replace("__WAVEJSON__", json.dumps(wave))
          .replace("__WAVE__", wave).replace("__N__", str(len(chunks)))
          .replace("__STYLE__", json.dumps(STYLE, ensure_ascii=False))
-         .replace("__REVIEW__", json.dumps(REVIEW_CHANGES if phase in ("P2", "P3", "P4") else REVIEW, ensure_ascii=False))
-         .replace("__RMODE__", json.dumps("changes" if phase in ("P2", "P3", "P4") else "full"))
+         .replace("__REVIEW__", json.dumps(REVIEW_CHANGES if phase[:2] in ("P2", "P3", "P4") else REVIEW, ensure_ascii=False))
+         .replace("__RMODE__", json.dumps("changes" if phase[:2] in ("P2", "P3", "P4") else "full"))
          .replace("__GOLD__", json.dumps(GOLD, ensure_ascii=False))
          .replace("__CHUNKS__", json.dumps(js_chunks, ensure_ascii=False, indent=0)))
     s = s.replace("\r\n", "\n").replace("\r", "\n")
@@ -261,8 +269,12 @@ def main():
     ap.add_argument("--delta", action="store_true")
     ap.add_argument("--wave", type=int, default=1)
     ap.add_argument("--per-wave", type=int, default=45)
+    ap.add_argument("--level", default="", help="P4 only: CEFR level of the oxford extras")
     a = ap.parse_args()
-    chunks = build_chunks(a.phase, a.delta)
+    chunks = build_chunks(a.phase, a.delta, a.level)
+    tag = a.phase + a.level                      # P4A1: chunk ids and wave files never collide across levels
+    for c in chunks:
+        c["id"] = tag + c["id"][len(a.phase):]
     n_units = sum(len(c["rows"]) for c in chunks)
     print(f"{len(chunks)} chunks, {n_units} units")
     # pack waves by count AND size: the Workflow tool rejects scripts over 512 KB
@@ -277,7 +289,7 @@ def main():
     if cur:
         waves.append(cur)
     for w, part in enumerate(waves):
-        out = write_wave(a.phase, part, a.wave + w)
+        out = write_wave(tag, part, a.wave + w)
         assert out.stat().st_size < 500_000, f"{out.name} too large for the Workflow tool"
         print(f"  wave {a.wave + w:02d}: {len(part)} chunks, {sum(len(c['rows']) for c in part)} units -> {out.name} "
               f"({out.stat().st_size // 1024} KB)")
