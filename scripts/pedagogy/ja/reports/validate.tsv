@@ -10,6 +10,7 @@ conversations	healthdo-68	turn	soft	NON_JOYO:疹	ペニシリンアレルギー�
 conversations	publictr-61	kp	soft	NON_JOYO:〇	このバスは{〇〇|まるまる}に{行|い}きますか。	Does this bus go to...?
 knowledge	photosynthesis|Science & Technical	ee	soft	REG_P_NO_POLITE	{光合成|こうごうせい}がなければ、{動物|どうぶつ}のための{酸素|さんそ}は{存在|そんざい}しないでしょう。	Without photosynthesis, there would be no oxygen for animals.
 knowledge	communication|Technology & Innovation	ee	soft	REG_P_NO_POLITE	{5|ふぁいぶ}Gによってモバイル{通信|つうしん}が{向上|こうじょう}するでしょう。	5G will improve mobile communication.
+knowledge	homeostasis|Biology & Natural Science	au	soft	NON_JOYO:膵	{膵臓|すいぞう}は、インスリンとグルカゴンを{分泌|ぶんぴつ}することで、グルコースのホメオスタシスを{保|たも}ちます。	The pancreas maintains glucose homeostasis by releasing insulin and glucagon.
 oxford	hi|A1	ee	soft	REG_P_NO_POLITE	こんにちは、はじめまして。	Hi, nice to meet you.
 oxford	hi|A1	xs	soft	REG_P_NO_POLITE	こんにちは、{当店|とうてん}へようこそ。	Hi, welcome to our shop.
 oxford	welcome|A1	ee	soft	REG_P_NO_POLITE	{私|わたし}たちのオフィスへようこそ！	Welcome to our office!
@@ -55,6 +56,12 @@ pv	write out of|write	xs	soft	REG_P_NO_POLITE	{契約|けいやく}{交渉|こ�
 pv	hand over|hand	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:一晩中,UNRESOLVED:NOREAD:番組選,UNRESOLVED:NOREAD:貸	いいからリモコン{貸|か}して。{一|いち}{晩|ばん}{中|ちゅう}ずっと{番組|ばんぐみ}{選|えら}んでたじゃん。	Just hand over the remote, you've been picking the shows all night.
 pv	add up|add	xs	soft	REG_C_BUT_POLITE,NON_JOYO:腑	この{取引|とりひき}はどこか{腑|ふ}に{落|お}ちない。{話|はなし}がうますぎるよ。	Something about this deal doesn't add up, it sounds too good to be true.
 pv	beat up on|beat	xs	soft	NON_JOYO:叩	{負|ま}けて{以来|いらい}、マスコミはずっとそのコーチを{叩|たた}いています。	The press has been beating up on the coach ever since they lost.
+pv	chip in|chip	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:上司,UNRESOLVED:NOREAD:出,UNRESOLVED:NOREAD:口,UNRESOLVED:NOREAD:挟,UNRESOLVED:NOREAD:私,UNRESOLVED:NOREAD:自分,UNRESOLVED:NOREAD:計画,UNRESOLVED:NOREAD:説明	{私|わたくし}が{計画|けいかく}を{説明|せつめい}していると、{上司|じょうし}が{口|くち}を{挟|はさ}んで{自分|じぶん}のアイデアをいくつか{出|だ}してきました。	I was explaining the plan when my boss chipped in with a few ideas of his own.
+pv	dress down|dress	xs	soft	NON_JOYO:叱	{締|し}め{切|き}りに{間|ま}に{合|あ}わなかったので、マネージャーはチーム{全員|ぜんいん}の{前|まえ}で{彼|かれ}をきつく{叱|しか}りました。	The manager dressed him down in front of the whole team for missing the deadline
+pv	dress down|dress	xs	soft	NON_JOYO:叱	{練習|れんしゅう}をサボったあと、{彼女|かのじょ}はコーチにこっぴどく{叱|しか}られました。	She got a serious dressing-down from her coach after skipping practice.
+pv	drive away|drive	xs	soft	REG_P_NO_POLITE	{彼|かれ}がずっとスマホばかり{見|み}ていると、{彼女|かのじょ}は{永遠|えいえん}に{離|はな}れていってしまうでしょう。	Constantly checking his phone is going to drive her away for good.
+pv	fight it out|fight	xs	soft	REG_P_NO_POLITE	{両社|りょうしゃ}ともその{契約|けいやく}を{狙|ねら}っているので、{法廷|ほうてい}で{決着|けっちゃく}をつけることになるでしょう。	Both companies want the contract, so they'll fight it out in court.
+pv	jump at|jump	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}なら、また{彼|かれ}と{働|はたら}けるチャンスがあれば{飛|と}びつくでしょう。	She'd jump at the chance to work with him again.
 stories	st_0fd82cc8	title	soft	LEN_RATIO:0.14	{小鳥|ことり}と{嵐|あらし}	The Little Bird and the Storm
 stories	st_4975069c	title	soft	LEN_RATIO:0.14	{月|つき}の{庭|にわ}	The Garden on the Moon
 stories	st_d504d2b8	para	soft	NON_JOYO:炒	そこで{彼女|かのじょ}は{即興|そっきょう}で{作|つく}ることにしました。{肉|にく}を{焼|や}いた{天板|てんぱん}に{安|やす}い{赤|あか}ワインを{注|そそ}いでうまみをこそげ{取|と}り、あめ{色|いろ}に{炒|いた}めた{玉|たま}ねぎから{甘|あま}みを{引|ひ}き{出|だ}し、{誰|だれ}も{存在|そんざい}を{認|みと}めてはいけないことになっているまかない{用|よう}のグレービーをひとさじ{混|ま}ぜ{込|こ}みました。それはずるであり、{近道|ちかみち}であり、{料理|りょうり}{長|ちょう}が{説|と}いてきたすべてに{対|たい}するささやかな{異端|いたん}でした。けれども、{味|あじ}は{本物|ほんもの}に{驚|おどろ}くほど{近|ちか}いと、{彼女|かのじょ}も{認|みと}めざるを{得|え}ませんでした。	So she improvised. She deglazed a roasting tray with cheap red wine, coaxed swee
