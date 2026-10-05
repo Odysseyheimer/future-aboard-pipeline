@@ -312,8 +312,8 @@ def derive(ja: str, yo: str, ov: list, sentence: bool, reg: str = "p") -> dict:
                  or f.startswith("OV_MISS")]
         if b["t"] == "num" and N.get(hit[0]) and r not in N[hit[0]]:
             pass                                  # verifier outranks numerals.py
+    covered = {(s, e) for s, e, _r in (ov or [])}
     if ov:
-        covered = {(s, e) for s, e, _r in ov}
         if all((b["a"], b["b"]) in covered for b in bl if b["t"] != "lit"):
             # every ruby block has a verified reading: a bad author `yo` no longer matters
             flags = [f for f in flags if not f.startswith(("ALIGN_FAIL", "ALIGN_AMBIG", "NOREAD"))]
@@ -360,9 +360,12 @@ def derive(ja: str, yo: str, ov: list, sentence: bool, reg: str = "p") -> dict:
             if word not in jm or not KANJI_RE.search(word):
                 continue
             ours = "".join(char_r[m.start():m.end()])
-            inside = {b["x"] for b in bl if b["t"] != "lit" and b["a"] >= m.start() and b["b"] <= m.end()}
+            inb = [b for b in bl if b["t"] != "lit" and b["a"] >= m.start() and b["b"] <= m.end()]
+            inside = {b["x"] for b in inb}
             if ours in jm[word] and len(jm[word]) == 1:     # an unambiguous dictionary reading confirms it
                 flags = [f for f in flags if f.partition(":")[2].partition("=")[0] not in inside]
+            elif inb and all((b["a"], b["b"]) in covered for b in inb):
+                pass                                  # verifier outranks JmdictFurigana
             elif ours not in jm[word]:
                 flags.append(f"JMDICT:{word}={ours}|{'/'.join(sorted(jm[word]))}")
     return {"ja": ja, "furi": furi, "rom": rom, "flags": sorted(set(flags)),
