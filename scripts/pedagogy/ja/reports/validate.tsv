@@ -41,6 +41,20 @@ oxford	strip (remove clothes/a layer)|C1	gloss	soft	NON_JOYO:剥	{剥|は}がす
 oxford	strip (remove clothes/a layer)|C1	ee	soft	NON_JOYO:剥	{塗|ぬ}り{直|なお}す{前|まえ}に、{作業|さぎょう}{員|いん}たちがアンティークのテーブルから{古|ふる}いニスを{剥|は}がすと、{何十|なんじゅう}{年|ねん}も{隠|かく}れていた{美|うつく}しい{木目|もくめ}が{現|あらわ}れました。	Before repainting, the workers stripped the old varnish off the antique table, r
 oxford	subsidy|C1	ee	soft	REG_P_NO_POLITE	{政府|せいふ}による{電気|でんき}{代|だい}の{補助|ほじょ}{金|きん}がなければ、この{地域|ちいき}の{多|おお}くの{小|ちい}さな{工場|こうじょう}は、{冬|ふゆ}の{間|あいだ}{操業|そうぎょう}を{続|つづ}けるのが{難|むずか}しいでしょう。	Without the government subsidy on electricity, many small factories in the regio
 oxford	weaken|C1	ee	soft	REG_P_NO_POLITE	{度重|たびかさ}なる{遅|おく}れでブランドに{対|たい}するお{客|きゃく}{様|さま}の{信頼|しんらい}が{弱|よわ}まり、その{愛着|あいちゃく}を{取|と}り{戻|もど}すには{相当|そうとう}な{努力|どりょく}が{必要|ひつよう}になるでしょう。	Repeated delays have weakened the customers' confidence in the brand, and rebuil
+oxford	action|A1	xs	soft	REG_P_NO_POLITE	どんな{行動|こうどう}をとるべきでしょうか。	What action should we take?
+oxford	afternoon|A1	xs	soft	REG_P_NO_POLITE	{皆|みな}さん、こんにちは。	Good afternoon, everyone.
+oxford	amazing|A1	xs	soft	REG_P_NO_POLITE	なんて{素晴|すば}らしい{一日|いちにち}でしょう。	What an amazing day!
+oxford	banana|A1	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:5本	ここにバナナが{5本|ごぽん}あります。	There are five bananas here.
+oxford	boring|A1	xs	soft	REG_P_NO_POLITE	{今日|きょう}はどうしてこんなに{退屈|たいくつ}なんでしょう。	Why is it so boring today?
+oxford	cent|A1	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:1,UNRESOLVED:NOREAD:持	{1|いち}セントも{持|も}っていません。	I don't have one cent.
+oxford	difficult|A1	xs	soft	REG_P_NO_POLITE	どうして{数学|すうがく}はこんなに{難|むずか}しいんでしょう。	Why is math so difficult?
+oxford	exciting|A1	xs	soft	REG_P_NO_POLITE	なんてわくわくする{話|はなし}でしょう。	What an exciting story!
+oxford	extra|A1	xs	soft	REG_P_NO_POLITE	チケットがもう{1枚|いちまい}あるので、どうぞ。	I have an extra ticket for you.
+oxford	feeling|A1	xs	soft	REG_P_NO_POLITE	なんて{不思議|ふしぎ}な{感|かん}じでしょう。	What a strange feeling!
+oxford	flower|A1	xs	soft	REG_P_NO_POLITE	なんてきれいな{花|はな}でしょう。	What a beautiful flower!
+oxford	goodbye|A1	xs	soft	REG_P_NO_POLITE	さようなら、どうぞお{気|き}をつけて。	Goodbye, have a safe trip.
+oxford	happen|A1	xs	soft	REG_P_NO_POLITE	{次|つぎ}に{何|なに}が{起|お}こるでしょうか。	What will happen next?
+oxford	hello|A1	xs	soft	REG_P_NO_POLITE	こんにちは、はじめまして。	Hello, nice to meet you.
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
