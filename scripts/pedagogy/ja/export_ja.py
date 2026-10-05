@@ -79,7 +79,8 @@ def render_chunk(kind: str, rows: list[dict]) -> str:
             if u["f"] == "gloss":
                 L.append(f"  [{lid}] gloss (dictionary-form Japanese equivalent of this word in this sense)")
             else:
-                L.append(f"  [{lid}] {'explanation' if u['f'] == 'kn' else 'example'}: {u['en']}{fmt_ctx(u)}")
+                lab = {"kn": "explanation", "au": "academic usage example (written, formal)"}.get(u["f"], "example")
+                L.append(f"  [{lid}] {lab}: {u['en']}{fmt_ctx(u)}")
     elif kind == "conv":
         cur = None
         for lid, u in rows:
@@ -126,6 +127,12 @@ def build_chunks(phase: str, delta: bool):
                 rows = sorted(rows, key=lambda x: order.get(x.get("g"), 9))
             for it in rows:
                 us += U.word_units(d, it, ("gloss", "ee", "kn"))
+        us = U.dedup(us)
+    elif phase == "P3":                                # extras: pv examples + knowledge academic usage
+        us = []
+        for d in ("pv", "knowledge"):
+            for it in U.load_deck(d):
+                us += U.word_units(d, it, ("xs", "au"))
         us = U.dedup(us)
     elif phase == "P1":
         us = U.units_for({"sentences": U.load_deck("sentences"), "conversations": U.load_deck("conversations"),
