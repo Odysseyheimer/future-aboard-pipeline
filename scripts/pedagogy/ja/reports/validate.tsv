@@ -162,7 +162,6 @@ oxford	aggressive|B2	xs	soft	REG_P_NO_POLITE	あの{運転|うんてん}{手|し
 oxford	approve|B2	xs	soft	REG_P_NO_POLITE	ご{両親|りょうしん}は、その{職業|しょくぎょう}{選|えら}びに{賛成|さんせい}してくれるでしょうか。	Will your parents approve of your choice of career?
 oxford	awareness|B2	xs	soft	REG_P_NO_POLITE	どうすればこの{問題|もんだい}に{対|たい}する{人々|ひとびと}の{意識|いしき}を{高|たか}められるでしょうか。	How can we build public awareness of this issue?
 oxford	beneficial|B2	xs	soft	REG_P_NO_POLITE	この{新|あたら}しい{方針|ほうしん}は{社員|しゃいん}にとって{有益|ゆうえき}でしょうか。	Is this new policy beneficial for the staff?
-oxford	bias|B2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:偏見,UNRESOLVED:NOREAD:動,UNRESOLVED:NOREAD:対,UNRESOLVED:NOREAD:彼女,UNRESOLVED:NOREAD:新,UNRESOLVED:NOREAD:遅	{新|あたら}しいアイデアに{対|たい}する{彼女|かのじょ}の{偏見|へんけん}のせいで、チームの{動|うご}きが{遅|おそ}くなりました。	Her bias against new ideas slowed the team down.
 oxford	blame|B2	xs	soft	REG_P_NO_POLITE	この{高|たか}くついたミスは{誰|だれ}の{責任|せきにん}にすべきでしょうか。	Who should we blame for this expensive mistake?
 oxford	bond|B2	xs	soft	REG_P_NO_POLITE	{親|おや}はどうすれば{子|こ}どもとの{絆|きずな}を{築|きず}けるでしょうか。	How can parents build a bond with their children?
 oxford	boost|B2	xs	soft	REG_P_NO_POLITE	{休暇|きゅうか}シーズンの{前|まえ}に{売|う}り{上|あ}げを{伸|の}ばすにはどうすればいいでしょうか。	How can we boost sales before the holidays?
@@ -210,7 +209,6 @@ oxford	efficient|B2	xs	soft	REG_P_NO_POLITE	どうすれば{会議|かいぎ}を
 oxford	efficiently|B2	xs	soft	REG_P_NO_POLITE	どうすれば{在宅|ざいたく}でもっと{効率|こうりつ}よく{仕事|しごと}ができるでしょうか。	How can I work more efficiently from home?
 oxford	eliminate|B2	xs	soft	REG_P_NO_POLITE	どうすればこの{工程|こうてい}の{無駄|むだ}をなくせるでしょうか。	How can we eliminate waste in this process?
 oxford	embrace|B2	xs	soft	REG_P_NO_POLITE	なぜ{新|あたら}しい{考|かんが}えを{受|う}け{入|い}れようとしない{人|ひと}がいるのでしょうか。	Why do some people refuse to embrace new ideas?
-oxford	emotionally|B2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:合,UNRESOLVED:NOREAD:彼女,UNRESOLVED:NOREAD:心,UNRESOLVED:NOREAD:祖母,UNRESOLVED:NOREAD:通	{彼女|かのじょ}は{祖母|そぼ}と{心|こころ}が{通|つう}じ{合|あ}っていました。	She was emotionally close to her grandmother.
 oxford	empire|B2	xs	soft	REG_P_NO_POLITE	あれほど{巨大|きょだい}な{帝国|ていこく}が、どうしてそんなに{早|はや}く{滅|ほろ}びたのでしょうか。	How did such a huge empire fall so quickly?
 oxford	engage|B2	xs	soft	REG_P_NO_POLITE	オンラインで{若|わか}いお{客|きゃく}{様|さま}の{関心|かんしん}を{引|ひ}くには、どうすればいいでしょうか。	How can we engage younger customers online?
 oxford	enhance|B2	xs	soft	REG_P_NO_POLITE	どうすれば{顧客|こきゃく}{体験|たいけん}をさらに{向上|こうじょう}させられるでしょうか。	How can we enhance the customer experience further?
