@@ -106,6 +106,13 @@ oxford	stomach|A2	xs	soft	REG_P_NO_POLITE	どうしてこんなにおなかが�
 oxford	surprising|A2	xs	soft	REG_P_NO_POLITE	なんて{意外|いがい}な{結果|けっか}だったんでしょう。	What a surprising result that was!
 oxford	sweet|A2	xs	soft	REG_P_NO_POLITE	なんて{優|やさ}しい{言葉|ことば}でしょう。	That was such a sweet thing to say.
 oxford	wish|A2	xs	soft	REG_P_NO_POLITE	ご{注文|ちゅうもん}はお{決|き}まりでしょうか。	Do you wish to order now?
+oxford	afford|B1	xs	soft	REG_P_NO_POLITE	どうしてあんなに{大|おお}きな{結婚|けっこん}{式|しき}を{挙|あ}げるお{金|かね}があるんでしょうか。	How can they afford such a big wedding?
+oxford	appreciate|B1	xs	soft	REG_P_NO_POLITE	{誕生日|たんじょうび}に{小|ちい}さなプレゼントをあげたら、{彼女|かのじょ}は{喜|よろこ}ぶでしょう。	She'll appreciate a small gift on her birthday.
+oxford	ban|B1	xs	soft	REG_P_NO_POLITE	{旧|きゅう}{市街|しがい}への{車|くるま}の{乗|の}り{入|い}れを{禁止|きんし}すべきでしょうか。	Should they ban cars from the old town?
+oxford	contrast|B1	xs	soft	REG_P_NO_POLITE	ここの{夏|なつ}と{冬|ふゆ}は、なんて{違|ちが}うんでしょう。	What a contrast between summer and winter here!
+oxford	embarrassing|B1	xs	soft	REG_P_NO_POLITE	どうして{質問|しつもん}するのは、こんなに{恥|は}ずかしいんでしょう。	Why is asking questions so embarrassing?
+oxford	encourage|B1	xs	soft	REG_P_NO_POLITE	{子|こ}どもに{読書|どくしょ}を{勧|すす}めるにはどうしたらいいでしょうか。	How can I encourage my child to read?
+oxford	eventually|B1	xs	soft	REG_P_NO_POLITE	{彼|かれ}は{最終|さいしゅう}{的|てき}に{私|わたし}たちに{賛成|さんせい}してくれるでしょうか。	Will he eventually agree with us?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
