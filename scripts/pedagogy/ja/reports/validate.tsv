@@ -152,6 +152,35 @@ oxford	weapon|B1	xs	soft	REG_P_NO_POLITE	どうして{人|ひと}は{家|いえ}
 oxford	whether|B1	xs	soft	REG_P_NO_POLITE	{今日|きょう}の{午後|ごご}は{雨|あめ}が{降|ふ}るでしょうか。	I wonder whether it will rain this afternoon.
 oxford	wing|B1	xs	soft	NON_JOYO:吊	{彼|かれ}は{腕|うで}を{骨折|こっせつ}したので、{羽|はね}のような{形|かたち}の{三角|さんかく}{巾|きん}で{吊|つ}っています。	He broke his arm, so it's in a wing-like sling.
 oxford	wonder|B1	xs	soft	REG_P_NO_POLITE	{今|いま}、チケットを{予約|よやく}したほうがいいでしょうか。	I wonder whether we should book the tickets now.
+oxford	acknowledge|B2	xs	soft	REG_P_NO_POLITE	{会社|かいしゃ}はそのミスに{対|たい}する{自社|じしゃ}の{責任|せきにん}を{認|みと}めるでしょうか。	Will the company acknowledge its part in the error?
+oxford	addiction|B2	xs	soft	REG_P_NO_POLITE	{重|おも}い{依存|いぞん}{症|しょう}の{人|ひと}をどうすれば{助|たす}けられるでしょうか。	How can we help someone with a serious addiction?
+oxford	accuracy|B2	xs	soft	REG_P_NO_POLITE	どうすれば{結果|けっか}の{精度|せいど}を{上|あ}げられるでしょうか。	How can we improve the accuracy of the results?
+oxford	aid|B2	xs	soft	REG_P_NO_POLITE	{海外|かいがい}からの{援助|えんじょ}は{洪水|こうずい}の{被災|ひさい}{者|しゃ}に{間|ま}に{合|あ}うでしょうか。	Will foreign aid reach the flood victims in time?
+oxford	AIDS|B2	xs	soft	REG_P_NO_POLITE	エイズとともに{生|い}きる{人々|ひとびと}をどのように{支|ささ}えられるでしょうか。	How can we support people living with AIDS?
+oxford	adopt|B2	xs	soft	REG_P_NO_POLITE	この{方針|ほうしん}を{全|ぜん}{支店|してん}で{採用|さいよう}すべきでしょうか。	Should we adopt this policy across all branches?
+oxford	aggressive|B2	xs	soft	REG_P_NO_POLITE	あの{運転|うんてん}{手|しゅ}は、なぜあんなに{乱暴|らんぼう}な{運転|うんてん}をしていたんでしょう。	Why was the driver so aggressive on the road?
+oxford	approve|B2	xs	soft	REG_P_NO_POLITE	ご{両親|りょうしん}は、その{職業|しょくぎょう}{選|えら}びに{賛成|さんせい}してくれるでしょうか。	Will your parents approve of your choice of career?
+oxford	awareness|B2	xs	soft	REG_P_NO_POLITE	どうすればこの{問題|もんだい}に{対|たい}する{人々|ひとびと}の{意識|いしき}を{高|たか}められるでしょうか。	How can we build public awareness of this issue?
+oxford	beneficial|B2	xs	soft	REG_P_NO_POLITE	この{新|あたら}しい{方針|ほうしん}は{社員|しゃいん}にとって{有益|ゆうえき}でしょうか。	Is this new policy beneficial for the staff?
+oxford	bias|B2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:偏見,UNRESOLVED:NOREAD:動,UNRESOLVED:NOREAD:対,UNRESOLVED:NOREAD:彼女,UNRESOLVED:NOREAD:新,UNRESOLVED:NOREAD:遅	{新|あたら}しいアイデアに{対|たい}する{彼女|かのじょ}の{偏見|へんけん}のせいで、チームの{動|うご}きが{遅|おそ}くなりました。	Her bias against new ideas slowed the team down.
+oxford	blame|B2	xs	soft	REG_P_NO_POLITE	この{高|たか}くついたミスは{誰|だれ}の{責任|せきにん}にすべきでしょうか。	Who should we blame for this expensive mistake?
+oxford	bond|B2	xs	soft	REG_P_NO_POLITE	{親|おや}はどうすれば{子|こ}どもとの{絆|きずな}を{築|きず}けるでしょうか。	How can parents build a bond with their children?
+oxford	boost|B2	xs	soft	REG_P_NO_POLITE	{休暇|きゅうか}シーズンの{前|まえ}に{売|う}り{上|あ}げを{伸|の}ばすにはどうすればいいでしょうか。	How can we boost sales before the holidays?
+oxford	charming|B2	xs	soft	REG_P_NO_POLITE	なんて{趣|おもむき}のある{小|ちい}さな{村|むら}でしょう！	What a charming little village this is!
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{冷|つめ}たい{風|かぜ}で、{彼女|かのじょ}の{頬|ほお}は{赤|あか}くなりました。	The cold wind made her cheeks turn red.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{彼|かれ}は{赤|あか}ちゃんの{柔|やわ}らかい{頬|ほお}にそっと{触|ふ}れました。	He gently touched the baby's soft cheek.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{涙|なみだ}がゆっくりと{彼|かれ}の{頬|ほお}を{伝|つた}いました。	A tear rolled slowly down his cheek.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{彼女|かのじょ}は{別|わか}れ{際|ぎわ}に{母親|ははおや}の{頬|ほお}にキスをしました。	She kissed her mother on the cheek goodbye.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{長|なが}い{距離|きょり}を{走|はし}った{後|あと}、{彼|かれ}の{頬|ほお}はピンク{色|いろ}になっていました。	His cheeks were pink after the long run.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	その{子|こ}は{頬|ほお}じゅうにチョコレートをつけていました。	The child had chocolate all over his cheeks.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{今日|きょう}はどうしてそんなに{頬|ほお}が{温|あたた}かいのですか。	Why are your cheeks so warm today?
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{彼女|かのじょ}は{冷|つめ}たい{窓|まど}に{頬|ほお}を{寄|よ}せました。	She rested her cheek against the cool window.
+oxford	cheek|B2	xs	soft	NON_JOYO:頬	{歯|は}{医者|いしゃ}さんは{彼|かれ}の{左|ひだり}の{頬|ほお}の{内側|うちがわ}を{診|み}ました。	The dentist checked inside his left cheek.
+oxford	carbon|B2	xs	soft	REG_P_NO_POLITE	{職場|しょくば}でカーボンフットプリントを{減|へ}らすにはどうすればいいでしょうか。	How can we reduce our carbon footprint at work?
+oxford	coincidence|B2	xs	soft	REG_P_NO_POLITE	{広告|こうこく}のあとに{売|う}り{上|あ}げが{伸|の}びたのは{偶然|ぐうぜん}でしょうか。	Is it a coincidence that sales rose after the ad?
+oxford	collapse|B2	xs	soft	REG_P_NO_POLITE	こんなに{軽|かる}い{箱|はこ}しか{載|の}せていないのに、どうして{棚|たな}が{崩|くず}れたのでしょうか。	Why did the shelf collapse under such light boxes?
+oxford	collector|B2	xs	soft	REG_P_NO_POLITE	コレクターなら、このモデルに{高|たか}い{値段|ねだん}を{払|はら}うでしょう。	Collectors will pay a high price for this model.
+oxford	colourful|B2	xs	soft	REG_P_NO_POLITE	この{古|ふる}い{町|まち}は、どうしてこんなにカラフルで{明|あか}るいのでしょう。	Why is this old town so colourful and cheerful?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
