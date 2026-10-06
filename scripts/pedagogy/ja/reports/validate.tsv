@@ -214,6 +214,30 @@ oxford	emotionally|B2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:合,UNRESO
 oxford	empire|B2	xs	soft	REG_P_NO_POLITE	あれほど{巨大|きょだい}な{帝国|ていこく}が、どうしてそんなに{早|はや}く{滅|ほろ}びたのでしょうか。	How did such a huge empire fall so quickly?
 oxford	engage|B2	xs	soft	REG_P_NO_POLITE	オンラインで{若|わか}いお{客|きゃく}{様|さま}の{関心|かんしん}を{引|ひ}くには、どうすればいいでしょうか。	How can we engage younger customers online?
 oxford	enhance|B2	xs	soft	REG_P_NO_POLITE	どうすれば{顧客|こきゃく}{体験|たいけん}をさらに{向上|こうじょう}させられるでしょうか。	How can we enhance the customer experience further?
+oxford	enthusiasm|B2	xs	soft	REG_P_NO_POLITE	{彼|かれ}は{毎朝|まいあさ}、どこからあんなにやる{気|き}が{出|で}てくるんでしょうか。	Where does he find such enthusiasm every morning?
+oxford	equip|B2	xs	soft	REG_P_NO_POLITE	{忙|いそが}しい{週末|しゅうまつ}に{向|む}けて、スタッフにもっとしっかり{準備|じゅんび}させるにはどうすればいいでしょうか。	How can we better equip staff for busy weekends?
+oxford	exclude|B2	xs	soft	REG_P_NO_POLITE	どうして{彼女|かのじょ}を{会議|かいぎ}から{外|はず}したのでしょうか。	Why did they exclude her from the meeting?
+oxford	exploit|B2	xs	soft	REG_P_NO_POLITE	なぜ{彼|かれ}らは{隠|かく}れた{手数|てすう}{料|りょう}で{客|きゃく}を{食|く}い{物|もの}にするのでしょうか。	Why do they exploit customers with hidden fees?
+oxford	forgive|B2	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}は、{彼|かれ}らの{裏切|うらぎ}りをいつか{許|ゆる}せる{日|ひ}が{来|く}るのでしょうか。	Will she ever forgive them for the betrayal?
+oxford	fortunate|B2	xs	soft	REG_P_NO_POLITE	{海|うみ}の{近|ちか}くに{住|す}めるなんて、{私|わたし}たちはなんて{幸運|こううん}なのでしょう。	How fortunate we are to live near the sea!
+oxford	foundation|B2	xs	soft	REG_P_NO_POLITE	{信頼|しんらい}は、{良|よ}い{友情|ゆうじょう}の{土台|どだい}でしょうか。	Is trust the foundation of a good friendship?
+oxford	fraud|B2	xs	soft	REG_P_NO_POLITE	どうすればお{客|きゃく}{様|さま}をネット{詐欺|さぎ}から{守|まも}れるでしょうか。	How can we protect our customers from online fraud?
+oxford	fundamentally|B2	xs	soft	REG_P_NO_POLITE	この{決断|けつだん}は{私|わたし}たちの{将来|しょうらい}を{根本|こんぽん}から{左右|さゆう}するでしょう。	This decision will fundamentally shape our future.
+oxford	generate|B2	xs	soft	REG_P_NO_POLITE	この{四半|しはん}{期|き}に、どうすれば{売|う}り{上|あ}げをもっと{伸|の}ばせるでしょうか。	How can we generate more sales this quarter?
+oxford	globalization|B2	xs	soft	REG_P_NO_POLITE	グローバル{化|か}は、{地元|じもと}の{農家|のうか}にとって{良|よ}いことでしょうか、{悪|わる}いことでしょうか。	Is globalization good or bad for local farmers?
+oxford	golden|B2	xs	soft	REG_P_NO_POLITE	これは{私|わたし}たちのビジネスにとって、{絶好|ぜっこう}のチャンスではないでしょうか。	Isn't this a golden opportunity for our business?
+oxford	gorgeous|B2	xs	soft	REG_P_NO_POLITE	{公園|こうえん}の{散歩|さんぽ}にぴったりの、なんてすばらしい{朝|あさ}でしょう！	What a gorgeous morning for a walk in the park!
+oxford	govern|B2	xs	soft	REG_P_NO_POLITE	{選挙|せんきょ}のあと、{誰|だれ}がこの{地域|ちいき}を{治|おさ}めるのでしょうか。	Who will govern the region after the election?
+oxford	graphic|B2	xs	soft	REG_P_NO_POLITE	どうしてテレビであんなに{生々|なまなま}しい{映像|えいぞう}を{流|なが}したのでしょうか。	Why did they show such graphic images on TV?
+oxford	greenhouse|B2	xs	soft	REG_P_NO_POLITE	{職場|しょくば}で{温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}を{減|へ}らすには、どうすればいいでしょうか。	How can we cut greenhouse gas emissions at work?
+oxford	habitat|B2	xs	soft	REG_P_NO_POLITE	このカメたちの{生息|せいそく}{地|ち}をどうすれば{守|まも}れるでしょうか。	How can we protect the habitat of these turtles?
+oxford	harm|B2	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}は{家族|かぞく}を{傷|きず}つけるようなことは{決|けっ}してしないでしょう。	She would never do anything to harm her family.
+oxford	heel|B2	xs	soft	REG_P_NO_POLITE	どうしてこの{靴下|くつした}のかかとはずれ{落|お}ちてしまうのでしょうか。	Why does the heel of this sock keep sliding down?
+oxford	hollow|B2	xs	soft	NON_JOYO:頬	{長|なが}い{病気|びょうき}の{後|あと}、{彼|かれ}の{頬|ほお}はこけて{見|み}えました。	His cheeks looked hollow after the long illness.
+oxford	homeless|B2	xs	soft	REG_P_NO_POLITE	この{冬|ふゆ}、{家|いえ}のない{家族|かぞく}をどうやって{助|たす}けられるでしょうか。	How can we help homeless families this winter?
+oxford	hunger|B2	xs	soft	REG_P_NO_POLITE	{貧|まず}しい{地域|ちいき}の{飢餓|きが}をなくすにはどうすればいいでしょうか。	How can we end hunger in poor regions?
+oxford	immune|B2	xs	soft	REG_P_NO_POLITE	{仕事|しごと}のストレスにまったく{影響|えいきょう}されない{人|ひと}なんて{本当|ほんとう}にいるのでしょうか。	Is anyone truly immune to stress at work?
+oxford	incorporate|B2	xs	soft	REG_P_NO_POLITE	どうすれば、{意見|いけん}をもっと{早|はや}く{反映|はんえい}できるでしょうか。	How can we incorporate feedback more quickly?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
