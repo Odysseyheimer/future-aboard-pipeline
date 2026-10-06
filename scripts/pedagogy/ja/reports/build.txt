@@ -8,10 +8,11 @@ knowledge.x          2080/2080   100.00%  salt=0  LISTED  knowledge.x.be59f728.j
 oxford               9958/9958   100.00%  salt=0  LISTED  oxford.7de02aa5.json
 oxford.x.A1          8100/8100   100.00%  salt=0  LISTED  oxford.x.A1.f8cb20f9.json
 oxford.x.A2          7191/7191   100.00%  salt=0  LISTED  oxford.x.A2.483023b5.json
+oxford.x.B1          6300/6300   100.00%  salt=0  LISTED  oxford.x.B1.9ed89137.json
 pv                   1804/1804   100.00%  salt=0  LISTED  pv.8f25372f.json
 pv.x                 3608/3608   100.00%  salt=0  LISTED  pv.x.6f28d7f3.json
 sentences            1744/1744   100.00%  salt=0  LISTED  sentences.0c11527c.json
 stories               480/480    100.00%  salt=0  LISTED  stories.23faf665.json
 syn                  1324/1324   100.00%  salt=0  LISTED  syn.f90fe7ac.json
 topic                 748/748    100.00%  salt=0  LISTED  topic.c29945d2.json
-stale TM units (English no longer in deck): {'colloc': 0, 'conversations': 0, 'syn': 0, 'pv': 0, 'oxford': 0, 'stories': 0, 'sentences': 0, 'awl': 0, 'knowledge': 0, 'idiom': 0, 'topic': 0}
+stale TM units (English no longer in deck): {'stories': 0, 'colloc': 0, 'sentences': 0, 'pv': 0, 'awl': 0, 'syn': 0, 'idiom': 0, 'conversations': 0, 'oxford': 0, 'topic': 0, 'knowledge': 0}
