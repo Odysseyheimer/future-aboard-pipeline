@@ -238,6 +238,19 @@ oxford	homeless|B2	xs	soft	REG_P_NO_POLITE	この{冬|ふゆ}、{家|いえ}の�
 oxford	hunger|B2	xs	soft	REG_P_NO_POLITE	{貧|まず}しい{地域|ちいき}の{飢餓|きが}をなくすにはどうすればいいでしょうか。	How can we end hunger in poor regions?
 oxford	immune|B2	xs	soft	REG_P_NO_POLITE	{仕事|しごと}のストレスにまったく{影響|えいきょう}されない{人|ひと}なんて{本当|ほんとう}にいるのでしょうか。	Is anyone truly immune to stress at work?
 oxford	incorporate|B2	xs	soft	REG_P_NO_POLITE	どうすれば、{意見|いけん}をもっと{早|はや}く{反映|はんえい}できるでしょうか。	How can we incorporate feedback more quickly?
+oxford	inevitable|B2	xs	soft	REG_P_NO_POLITE	{来年|らいねん}の{値上|ねあ}げは{避|さ}けられないのでしょうか。	Is a price increase inevitable next year?
+oxford	inevitably|B2	xs	soft	REG_P_NO_POLITE	{新|あたら}しい{税金|ぜいきん}が{導入|どうにゅう}されたら、{物価|ぶっか}は{必|かなら}ず{上|あ}がるでしょう。	Prices will inevitably rise after the new tax.
+oxford	inherit|B2	xs	soft	REG_P_NO_POLITE	いつか{家業|かぎょう}を{継|つ}ぐのは{誰|だれ}でしょうか。	Who will inherit the family business one day?
+oxford	innovation|B2	xs	soft	REG_P_NO_POLITE	どんなイノベーションがあれば、サービスを{改善|かいぜん}できるでしょうか。	What kind of innovation could improve our service?
+oxford	innovation|B2	xs	soft	REG_P_NO_POLITE	イノベーションがなければ、その{事業|じぎょう}は{少|すこ}しずつ{取|と}り{残|のこ}されていくでしょう。	Without innovation, the business will slowly fall behind.
+oxford	insurance|B2	xs	soft	REG_P_NO_POLITE	{保険|ほけん}がなかったら、{修理|しゅうり}{代|だい}はとても{高|たか}くなっていたでしょう。	Without insurance, the repair would have been very expensive.
+oxford	integrate|B2	xs	soft	REG_P_NO_POLITE	どうすればこれらのアイデアを{1つ|ひとつ}の{計画|けいかく}にまとめられるでしょうか。	How can we integrate these ideas into one plan?
+oxford	jail|B2	xs	soft	REG_P_NO_POLITE	{裁判|さいばん}{所|しょ}は{彼|かれ}を{刑務|けいむ}{所|しょ}に{送|おく}るでしょうか。	Will the court send him to jail?
+oxford	magnificent|B2	xs	soft	REG_P_NO_POLITE	なんてすばらしいパフォーマンスだったのでしょう。	What a magnificent performance that was!
+oxford	minister|B2	xs	soft	REG_P_NO_POLITE	{大臣|だいじん}は{新|あたら}しい{政策|せいさく}をわかりやすく{説明|せつめい}してくれるでしょうか。	Could the minister explain the new policy clearly?
+oxford	minority|B2	xs	soft	REG_P_NO_POLITE	なぜ{少数|しょうすう}{派|は}はよく{無視|むし}されていると{感|かん}じるのでしょうか。	Why does the minority often feel ignored?
+oxford	motor|B2	xs	soft	REG_P_NO_POLITE	もっと{強力|きょうりょく}なモーターなら、ドローンはもっと{速|はや}く{飛|と}べるでしょう。	A stronger motor would make the drone fly faster.
+oxford	observer|B2	xs	soft	REG_P_NO_POLITE	{注意深|ちゅういぶか}く{見|み}ている{人|ひと}なら、{小|ちい}さな{変化|へんか}に{気|き}づくでしょう。	A careful observer would notice the small changes.
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
