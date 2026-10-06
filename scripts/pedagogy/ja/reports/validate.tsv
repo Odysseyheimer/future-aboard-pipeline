@@ -251,6 +251,43 @@ oxford	minister|B2	xs	soft	REG_P_NO_POLITE	{大臣|だいじん}は{新|あた�
 oxford	minority|B2	xs	soft	REG_P_NO_POLITE	なぜ{少数|しょうすう}{派|は}はよく{無視|むし}されていると{感|かん}じるのでしょうか。	Why does the minority often feel ignored?
 oxford	motor|B2	xs	soft	REG_P_NO_POLITE	もっと{強力|きょうりょく}なモーターなら、ドローンはもっと{速|はや}く{飛|と}べるでしょう。	A stronger motor would make the drone fly faster.
 oxford	observer|B2	xs	soft	REG_P_NO_POLITE	{注意深|ちゅういぶか}く{見|み}ている{人|ひと}なら、{小|ちい}さな{変化|へんか}に{気|き}づくでしょう。	A careful observer would notice the small changes.
+oxford	output|B2	xs	soft	REG_P_NO_POLITE	チームの{成果|せいか}を{上|あ}げるにはどうすればいいでしょうか。	How can we improve the team's output?
+oxford	participation|B2	xs	soft	REG_P_NO_POLITE	アンケートへの{参加|さんか}を{増|ふ}やすには、どうすればいいでしょうか。	How can we increase participation in the survey?
+oxford	partnership|B2	xs	soft	REG_P_NO_POLITE	{弊社|へいしゃ}との{提携|ていけい}をご{検討|けんとう}いただけないでしょうか。	Would you consider a partnership with our company?
+oxford	perceive|B2	xs	soft	REG_P_NO_POLITE	お{客|きゃく}{様|さま}は{新|あたら}しいロゴをどう{受|う}け{止|と}めているでしょうか。	How do customers perceive our new logo?
+oxford	perception|B2	xs	soft	REG_P_NO_POLITE	どうすれば、{私|わたし}たちのブランドに{対|たい}する{世間|せけん}の{印象|いんしょう}をよくできるでしょうか。	How can we improve public perception of our brand?
+oxford	pose|B2	xs	soft	REG_P_NO_POLITE	{講演|こうえん}{者|しゃ}に{質問|しつもん}してもよろしいでしょうか。	May I pose a question to the speaker?
+oxford	phenomenon|B2	xs	soft	REG_P_NO_POLITE	{最近|さいきん}、どうしてこの{現象|げんしょう}がこんなによく{見|み}られるようになったのでしょうか。	Why has this phenomenon become so common lately?
+oxford	probability|B2	xs	soft	REG_P_NO_POLITE	ほぼ{間違|まちが}いなく、{飛行|ひこう}{機|き}は{遅|おく}れるでしょう。	In all probability, the flight will be delayed.
+oxford	probable|B2	xs	soft	REG_P_NO_POLITE	{相手|あいて}がこちらの{提案|ていあん}を{受|う}け{入|い}れる{可能|かのう}{性|せい}は{高|たか}いでしょうか。	Is it probable that they will accept our offer?
+oxford	publicity|B2	xs	soft	REG_P_NO_POLITE	どうすればイベントをもっと{宣伝|せんでん}できるでしょうか。	How can we get more publicity for our event?
+oxford	pursuit|B2	xs	soft	REG_P_NO_POLITE	この{終|お}わりのない{追求|ついきゅう}に{何|なん}の{意味|いみ}があるのでしょうか。	What is the point of this endless pursuit?
+oxford	pursuit|B2	xs	soft	REG_P_NO_POLITE	{幸|しあわ}せは{本当|ほんとう}に、こんなに{追|お}い{求|もと}め{続|つづ}ける{価値|かち}があるのでしょうか。	Is happiness really worth this constant pursuit?
+oxford	racial|B2	xs	soft	REG_P_NO_POLITE	なぜ{一部|いちぶ}の{地域|ちいき}では、{今|いま}も{人種|じんしゅ}{間|かん}の{緊張|きんちょう}があるのでしょうか。	Why does racial tension still exist in some areas?
+oxford	propose|B2	xs	soft	REG_P_NO_POLITE	{続|つづ}ける{前|まえ}に、{少|すこ}し{休憩|きゅうけい}にしてはいかがでしょうか。	May I propose a short break before we continue?
+oxford	reasonable|B2	xs	soft	REG_P_NO_POLITE	こんなに{早|はや}く{返事|へんじ}を{期待|きたい}するのは{妥当|だとう}でしょうか。	Is it reasonable to expect a reply so soon?
+oxford	reasonable|B2	xs	soft	REG_P_NO_POLITE	{分別|ふんべつ}のある{人|ひと}なら、この{公平|こうへい}な{申|もう}し{出|で}を{受|う}け{入|い}れるでしょう。	A reasonable person would accept this fair offer.
+oxford	reasonably|B2	xs	soft	REG_P_NO_POLITE	どうすればこの{問題|もんだい}を{合理|ごうり}{的|てき}に{解決|かいけつ}できるでしょうか。	How can we solve this problem reasonably?
+oxford	reasonably|B2	xs	soft	REG_P_NO_POLITE	{来週|らいしゅう}までには{結果|けっか}が{出|で}ると{考|かんが}えてよいでしょう。	We can reasonably expect results by next week.
+oxford	rebuild|B2	xs	soft	REG_P_NO_POLITE	{古|ふる}いお{寺|てら}を{再建|さいけん}するには{何|なん}{年|ねん}もかかるでしょう。	It will take years to rebuild the old temple.
+oxford	rebuild|B2	xs	soft	REG_P_NO_POLITE	ミスの{後|あと}、どうすれば{信頼|しんらい}を{取|と}り{戻|もど}せるでしょうか。	How can we rebuild trust after the mistake?
+oxford	recognition|B2	xs	soft	REG_P_NO_POLITE	これらのアーティストは、{世間|せけん}から{十分|じゅうぶん}に{認|みと}められているでしょうか。	Do these artists get enough public recognition?
+oxford	racism|B2	xs	soft	REG_P_NO_POLITE	どうすれば{子|こ}どもたちに{人種|じんしゅ}{差別|さべつ}を{拒|こば}むよう{教|おし}えられるでしょうか。	How can we teach children to reject racism?
+oxford	rapid|B2	xs	soft	REG_P_NO_POLITE	どうして{最近|さいきん}、こんなに{急速|きゅうそく}な{変化|へんか}が{起|お}きているのでしょうか。	Why has there been such rapid change lately?
+oxford	relieve|B2	xs	soft	REG_P_NO_POLITE	{音楽|おんがく}で{仕事|しごと}の{後|あと}のストレスを{本当|ほんとう}に{解消|かいしょう}できるのでしょうか。	Can music really relieve stress after work?
+oxford	rely|B2	xs	soft	REG_P_NO_POLITE	この{古|ふる}い{車|くるま}は{旅行|りょこう}で{頼|たよ}りになるでしょうか。	Can we rely on this old car for the trip?
+oxford	remark|B2	xs	soft	REG_P_NO_POLITE	どうして{彼女|かのじょ}はあんな{失礼|しつれい}なことを{言|い}ったのでしょうか。	Why did she make such a rude remark?
+oxford	remarkably|B2	xs	soft	REG_P_NO_POLITE	{冬|ふゆ}にしては{驚|おどろ}くほど{暖|あたた}かいのはなぜでしょうか。	Why is the weather remarkably warm for winter?
+oxford	reputation|B2	xs	soft	REG_P_NO_POLITE	そのホテルはどうやってあれほど{高|たか}い{評判|ひょうばん}を{得|え}たのでしょうか。	How did the hotel build such a great reputation?
+oxford	reduction|B2	xs	soft	REG_P_NO_POLITE	どうすればエネルギーコストを{削減|さくげん}できるでしょうか。	How can we achieve a reduction in energy costs?
+oxford	refugee|B2	xs	soft	REG_P_NO_POLITE	{難民|なんみん}が{新|あたら}しい{国|くに}に{定住|ていじゅう}できるよう、どう{手助|てだす}けすればいいでしょうか。	How can we help refugees settle in a new country?
+oxford	regard|B2	xs	soft	REG_P_NO_POLITE	お{客|きゃく}{様|さま}は{当社|とうしゃ}の{新|しん}{製品|せいひん}をどう{見|み}ているでしょうか。	How do customers regard our new product?
+oxford	reinforce|B2	xs	soft	REG_P_NO_POLITE	どうすればチームの{自信|じしん}を{高|たか}められるでしょうか。	How can we reinforce the team's confidence?
+oxford	resist|B2	xs	soft	REG_P_NO_POLITE	なぜ{多|おお}くの{人|ひと}が{職場|しょくば}での{変化|へんか}に{抵抗|ていこう}するのでしょうか。	Why do so many people resist change at work?
+oxford	resolve|B2	xs	soft	REG_P_NO_POLITE	この{2つ|ふたつ}のチームの{対立|たいりつ}は、どうすれば{解決|かいけつ}できるでしょうか。	How can we resolve the conflict between these two teams?
+oxford	retain|B2	xs	soft	REG_P_NO_POLITE	{学校|がっこう}は、どうすれば{優秀|ゆうしゅう}な{先生|せんせい}を{引|ひ}き{留|と}められるでしょうか。	How can schools retain their best teachers?
+oxford	reveal|B2	xs	soft	REG_P_NO_POLITE	その{会社|かいしゃ}はいつ{新|しん}{製品|せいひん}を{発表|はっぴょう}するのでしょうか。	When will the company reveal its new product?
+oxford	revolution|B2	xs	soft	REG_P_NO_POLITE	{産業|さんぎょう}{革命|かくめい}は、{日々|ひび}の{生活|せいかつ}をどのように{変|か}えたのでしょうか。	How did the industrial revolution change daily life?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
