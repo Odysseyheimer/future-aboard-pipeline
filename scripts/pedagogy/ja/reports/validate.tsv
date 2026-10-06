@@ -113,6 +113,25 @@ oxford	contrast|B1	xs	soft	REG_P_NO_POLITE	ここの{夏|なつ}と{冬|ふゆ}�
 oxford	embarrassing|B1	xs	soft	REG_P_NO_POLITE	どうして{質問|しつもん}するのは、こんなに{恥|は}ずかしいんでしょう。	Why is asking questions so embarrassing?
 oxford	encourage|B1	xs	soft	REG_P_NO_POLITE	{子|こ}どもに{読書|どくしょ}を{勧|すす}めるにはどうしたらいいでしょうか。	How can I encourage my child to read?
 oxford	eventually|B1	xs	soft	REG_P_NO_POLITE	{彼|かれ}は{最終|さいしゅう}{的|てき}に{私|わたし}たちに{賛成|さんせい}してくれるでしょうか。	Will he eventually agree with us?
+oxford	fascinating|B1	xs	soft	REG_P_NO_POLITE	なんて{魅力|みりょく}{的|てき}な{絵|え}なんでしょう。	What a fascinating painting this is!
+oxford	freeze|B1	xs	soft	REG_P_NO_POLITE	この{水|みず}は{寒|さむ}い{夜|よる}に{凍|こお}るでしょうか。	Will this water freeze in the cold night?
+oxford	fry|B1	xs	soft	NON_JOYO:炒	ふだんはスープ{用|よう}に{玉|たま}ねぎを{少|すこ}し{炒|いた}めます。	I usually fry some onions for the soup.
+oxford	fry|B1	xs	soft	NON_JOYO:炒	{彼|かれ}はご{飯|はん}を{野菜|やさい}と{一緒|いっしょ}に{炒|いた}めるのが{好|す}きです。	He likes to fry rice with vegetables.
+oxford	fry|B1	xs	soft	NON_JOYO:炒	{手早|てばや}く{夕食|ゆうしょく}を{済|す}ませたいときは、{麺|めん}をさっと{炒|いた}めます。	We fry noodles quickly for a fast dinner.
+oxford	ghost|B1	xs	soft	REG_P_NO_POLITE	{今|いま}のは{幽霊|ゆうれい}だったのでしょうか、それともただの{風|かぜ}でしょうか。	Was that a ghost or just the wind?
+oxford	global|B1	xs	soft	REG_P_NO_POLITE	{今|いま}、{英語|えいご}は{本当|ほんとう}に{世界|せかい}{共通|きょうつう}{語|ご}なのでしょうか。	Is English really a global language now?
+oxford	global|B1	xs	soft	REG_P_NO_POLITE	これは{世界|せかい}{経済|けいざい}にどんな{影響|えいきょう}を{与|あた}えるでしょうか。	How will this affect the global economy?
+oxford	grade|B1	xs	soft	REG_P_NO_POLITE	{悪|わる}い{成績|せいせき}を{取|と}っても、{彼女|かのじょ}は{努力|どりょく}をやめないでしょう。	A low grade won't stop her from trying.
+oxford	happiness|B1	xs	soft	REG_P_NO_POLITE	{小|ちい}さなことで{本当|ほんとう}に{幸|しあわ}せになれるのでしょうか。	Can small things really give us happiness?
+oxford	horrible|B1	xs	soft	REG_P_NO_POLITE	なんてひどい{一|いち}{日|にち}だったんでしょう。	What a horrible day it has been!
+oxford	impact|B1	xs	soft	REG_P_NO_POLITE	この{変更|へんこう}は、{価格|かかく}にどんな{影響|えいきょう}を{与|あた}えるでしょうか。	What impact will this change have on prices?
+oxford	intelligence|B1	xs	soft	REG_P_NO_POLITE	{動物|どうぶつ}にはそれぞれ{独自|どくじ}の{知能|ちのう}があるのでしょうか。	Do animals have their own kind of intelligence?
+oxford	invest|B1	xs	soft	REG_P_NO_POLITE	{貯金|ちょきん}はどこに{投資|とうし}すればいいでしょうか。	Where should I invest my savings?
+oxford	kind (caring)|B1	xs	soft	REG_P_NO_POLITE	どうしてみんな、お{互|たが}いに{優|やさ}しくできないのでしょうか。	Why can't people be kind to each other?
+oxford	kiss|B1	xs	soft	NON_JOYO:頬	{彼|かれ}は{祖母|そぼ}の{頬|ほお}にキスをしました。	He kissed his grandmother on the cheek.
+oxford	mainly|B1	xs	soft	REG_P_NO_POLITE	なぜ{今|いま}、{人々|ひとびと}は{主|おも}にネットで{買|か}い{物|もの}をするのでしょうか。	Why do people mainly shop online now?
+oxford	nation|B1	xs	soft	REG_P_NO_POLITE	{一|ひと}つの{国|くに}だけでこの{問題|もんだい}を{解決|かいけつ}できるでしょうか。	Can one nation solve this problem alone?
+oxford	poverty|B1	xs	soft	REG_P_NO_POLITE	どうすれば{私|わたし}たちの{国|くに}の{貧困|ひんこん}を{減|へ}らせるでしょうか。	How can we reduce poverty in our country?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
