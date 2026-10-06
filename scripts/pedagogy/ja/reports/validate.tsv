@@ -139,7 +139,6 @@ oxford	remain|B1	xs	soft	REG_P_NO_POLITE	{今週|こんしゅう}はずっと{�
 oxford	resource|B1	xs	soft	REG_P_NO_POLITE	どうすれば{資源|しげん}をもっと{賢|かしこ}く{使|つか}えるでしょうか。	How can we use our resources more wisely?
 oxford	sensible|B1	xs	soft	REG_P_NO_POLITE	こんな{大雨|おおあめ}の{中|なか}で{運転|うんてん}するのは{賢明|けんめい}でしょうか。	Is it sensible to drive in this heavy rain?
 oxford	sensible|B1	xs	soft	REG_P_NO_POLITE	{分別|ふんべつ}のある{人|ひと}なら、まず{助|たす}けを{求|もと}めるでしょう。	A sensible person would ask for help first.
-oxford	shy|B1	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:恥,UNRESOLVED:NOREAD:聞	{恥|は}ずかしがらないで、ぜひアイデアを{聞|き}かせてください。	Don't be shy; please share your idea.
 oxford	stranger|B1	xs	soft	REG_P_NO_POLITE	どうしてあの{知|し}らない{人|ひと}は{私|わたし}たちを{見|み}ているのでしょうか。	Why is that stranger looking at us?
 oxford	surely|B1	xs	soft	REG_P_NO_POLITE	{今日|きょう}はまさか{雨|あめ}は{降|ふ}らないでしょう。	Surely it isn't going to rain today.
 oxford	throat|B1	xs	soft	NON_JOYO:咳	{彼|かれ}は{話|はな}す{前|まえ}に{咳払|せきばら}いをしました。	He cleared his throat before he spoke.
