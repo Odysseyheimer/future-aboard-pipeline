@@ -181,6 +181,39 @@ oxford	coincidence|B2	xs	soft	REG_P_NO_POLITE	{広告|こうこく}のあとに{
 oxford	collapse|B2	xs	soft	REG_P_NO_POLITE	こんなに{軽|かる}い{箱|はこ}しか{載|の}せていないのに、どうして{棚|たな}が{崩|くず}れたのでしょうか。	Why did the shelf collapse under such light boxes?
 oxford	collector|B2	xs	soft	REG_P_NO_POLITE	コレクターなら、このモデルに{高|たか}い{値段|ねだん}を{払|はら}うでしょう。	Collectors will pay a high price for this model.
 oxford	colourful|B2	xs	soft	REG_P_NO_POLITE	この{古|ふる}い{町|まち}は、どうしてこんなにカラフルで{明|あか}るいのでしょう。	Why is this old town so colourful and cheerful?
+oxford	conflict|B2	xs	soft	REG_P_NO_POLITE	この{対立|たいりつ}をどうすれば{平和|へいわ}{的|てき}に{解決|かいけつ}できるでしょうか。	How can we solve this conflict peacefully?
+oxford	constant|B2	xs	soft	REG_P_NO_POLITE	どうして{上|うえ}の{階|かい}からずっと{音|おと}がするのでしょうか。	Why is there constant noise from upstairs?
+oxford	constantly|B2	xs	soft	REG_P_NO_POLITE	どうして{物価|ぶっか}はずっと{上|あ}がり{続|つづ}けているのでしょうか。	Why are prices constantly going up?
+oxford	consumption|B2	xs	soft	REG_P_NO_POLITE	どうすればエネルギーの{消費|しょうひ}を{減|へ}らせるでしょうか。	How can we reduce our energy consumption?
+oxford	creature|B2	xs	soft	REG_P_NO_POLITE	この{変|へん}な{音|おと}を{出|だ}したのは、どんな{生|い}き{物|もの}でしょうか。	What kind of creature made this strange sound?
+oxford	cure|B2	xs	soft	NON_JOYO:咳	その{咳|せき}を{治|なお}すために、{医者|いしゃ}に{診|み}てもらってください。	Please see a doctor to cure that cough.
+oxford	dare|B2	xs	soft	REG_P_NO_POLITE	おそらく、{会議|かいぎ}はまた{長引|ながび}くでしょう。	I dare say the meeting will run late again.
+oxford	debate|B2	xs	soft	REG_P_NO_POLITE	この{問題|もんだい}は{会議|かいぎ}で{議論|ぎろん}したほうがいいでしょうか。	Should we debate this issue at the meeting?
+oxford	defeat|B2	xs	soft	REG_P_NO_POLITE	{人前|ひとまえ}で{話|はな}す{怖|こわ}さを{克服|こくふく}することはできるでしょうか。	Can we defeat our fear of speaking in public?
+oxford	deliberately|B2	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}はわざと{私|わたし}のメールを{無視|むし}したのでしょうか。	Did she deliberately ignore my email?
+oxford	demand|B2	xs	soft	REG_P_NO_POLITE	どうしてうちの{商品|しょうひん}の{需要|じゅよう}がこんなに{急|きゅう}に{落|お}ちたのでしょうか。	Why has demand for our product dropped so fast?
+oxford	democracy|B2	xs	soft	REG_P_NO_POLITE	{民主|みんしゅ}{主義|しゅぎ}は{一般|いっぱん}の{市民|しみん}をどのように{守|まも}るのでしょうか。	How does democracy protect ordinary citizens?
+oxford	deny|B2	xs	soft	REG_P_NO_POLITE	どうして{彼女|かのじょ}はその{計画|けいかく}を{知|し}っていたことを{否定|ひてい}するのでしょうか。	Why does she deny knowing about the plan?
+oxford	depression|B2	xs	soft	REG_P_NO_POLITE	うつ{病|びょう}の{友達|ともだち}を、どうすれば{支|ささ}えられるでしょうか。	How can we support a friend with depression?
+oxford	destruction|B2	xs	soft	REG_P_NO_POLITE	これらの{古|ふる}い{建物|たてもの}の{取|と}り{壊|こわ}しを、どうすれば{防|ふせ}げるでしょうか。	How can we prevent the destruction of these old buildings?
+oxford	determination|B2	xs	soft	REG_P_NO_POLITE	{彼女|かのじょ}は{毎日|まいにち}、どこからそんな{意志|いし}の{強|つよ}さが{出|で}てくるのでしょうか。	Where does she find such determination every single day?
+oxford	discipline|B2	xs	soft	REG_P_NO_POLITE	もっと{自分|じぶん}を{律|りっ}すれば、{彼|かれ}は{簡単|かんたん}にお{金|かね}をためられるでしょう。	With more discipline, he could easily save money.
+oxford	dismiss|B2	xs	soft	REG_P_NO_POLITE	なぜ{上司|じょうし}は、あんなに{重要|じゅうよう}な{警告|けいこく}を{無視|むし}したのでしょうか。	Why did the boss dismiss such an important warning?
+oxford	distant|B2	xs	soft	REG_P_NO_POLITE	{今日|きょう}の{彼女|かのじょ}は、どうしてあんなによそよそしくて{静|しず}かなんでしょうか。	Why does she seem so distant and quiet today?
+oxford	diverse|B2	xs	soft	REG_P_NO_POLITE	{多様|たよう}なチームは、なぜビジネスにとっていいのでしょうか。	Why is a diverse team good for business?
+oxford	diversity|B2	xs	soft	REG_P_NO_POLITE	{採用|さいよう}の{多様|たよう}{性|せい}を{高|たか}めるには、どうすればいいでしょうか。	How can we increase diversity in our hiring?
+oxford	divorce|B2	xs	soft	REG_P_NO_POLITE	{二人|ふたり}はなぜそんなに{早|はや}く{離婚|りこん}することにしたのでしょうか。	Why did they choose to divorce so quickly?
+oxford	dominate|B2	xs	soft	REG_P_NO_POLITE	なぜ{地元|じもと}の{店|みせ}には{輸入|ゆにゅう}{品|ひん}ばかりが{並|なら}んでいるのでしょうか。	Why do imported goods dominate our local shops?
+oxford	dull|B2	xs	soft	REG_P_NO_POLITE	どうしてこの{本|ほん}はこんなに{読|よ}んでいて{退屈|たいくつ}なんでしょう。	Why is this book so dull to read?
+oxford	dynamic|B2	xs	soft	REG_P_NO_POLITE	{本当|ほんとう}にエネルギッシュなリーダーには、{何|なに}が{必要|ひつよう}なのでしょうか。	What makes a leader truly dynamic?
+oxford	efficient|B2	xs	soft	REG_P_NO_POLITE	どうすれば{会議|かいぎ}をもっと{効率|こうりつ}{的|てき}にできるでしょうか。	How can we make our meetings more efficient?
+oxford	efficiently|B2	xs	soft	REG_P_NO_POLITE	どうすれば{在宅|ざいたく}でもっと{効率|こうりつ}よく{仕事|しごと}ができるでしょうか。	How can I work more efficiently from home?
+oxford	eliminate|B2	xs	soft	REG_P_NO_POLITE	どうすればこの{工程|こうてい}の{無駄|むだ}をなくせるでしょうか。	How can we eliminate waste in this process?
+oxford	embrace|B2	xs	soft	REG_P_NO_POLITE	なぜ{新|あたら}しい{考|かんが}えを{受|う}け{入|い}れようとしない{人|ひと}がいるのでしょうか。	Why do some people refuse to embrace new ideas?
+oxford	emotionally|B2	xs	HARD	UNRESOLVED:ALIGN_FAIL,UNRESOLVED:NOREAD:合,UNRESOLVED:NOREAD:彼女,UNRESOLVED:NOREAD:心,UNRESOLVED:NOREAD:祖母,UNRESOLVED:NOREAD:通	{彼女|かのじょ}は{祖母|そぼ}と{心|こころ}が{通|つう}じ{合|あ}っていました。	She was emotionally close to her grandmother.
+oxford	empire|B2	xs	soft	REG_P_NO_POLITE	あれほど{巨大|きょだい}な{帝国|ていこく}が、どうしてそんなに{早|はや}く{滅|ほろ}びたのでしょうか。	How did such a huge empire fall so quickly?
+oxford	engage|B2	xs	soft	REG_P_NO_POLITE	オンラインで{若|わか}いお{客|きゃく}{様|さま}の{関心|かんしん}を{引|ひ}くには、どうすればいいでしょうか。	How can we engage younger customers online?
+oxford	enhance|B2	xs	soft	REG_P_NO_POLITE	どうすれば{顧客|こきゃく}{体験|たいけん}をさらに{向上|こうじょう}させられるでしょうか。	How can we enhance the customer experience further?
 pv	break out in|break	gloss	soft	NON_JOYO:疹	{出|で}る、({発疹|ほっしん}が)できる	#break out in|phrasal verb|to suddenly get (a rash, sweat)
 pv	break out in|break	ee	soft	NON_JOYO:疹	{食事|しょくじ}の{後|あと}、{発疹|ほっしん}が{出|で}ました。	I broke out in a rash after eating.
 pv	chip off|chip	gloss	soft	NON_JOYO:剥	{剥|は}がれ{落|お}ちる、{欠|か}ける	#chip off|phrasal verb|break or come off in small pieces from a surface
